@@ -5,9 +5,9 @@ Test Configuration:
 ------------------------------------------------------------------------------------
  Test Component  | 	 WebStore, customers 
 
-Test Objective£º Verify the GAMMA-JWebStore can work
+Test ObjectiveÂ£Âº Verify the GAMMA-JWebStore can work
 
-Data Pool£º
+Data PoolÂ£Âº
 ------------------------------------------------------------------------------------
 	 Data Partition   | account information, inventory information, product information, order information 
 ------------------------------------------------------------------------------------
