@@ -5,9 +5,9 @@ Test Configuration:
 ------------------------------------------------------------------------------------
  Test Component  | 	 pontis System, user, system, privileged users, agency, administrator, administration 
 
-Test Objective£º Verify the pontis Bridge Management System can work
+Test ObjectiveÂ£Âº Verify the pontis Bridge Management System can work
 
-Data Pool£º
+Data PoolÂ£Âº
 ------------------------------------------------------------------------------------
 	 Data Partition   | structure ID, project ID, program, action type, project status, review status, treatment, program year, project end date, project ID, project name, project status, structure ID, program, bridge data, project data, preservation model data, program simulation results, configuration data 
 ------------------------------------------------------------------------------------
