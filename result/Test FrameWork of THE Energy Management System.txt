@@ -5,9 +5,9 @@ Test Configuration:
 ------------------------------------------------------------------------------------
  Test Component  | 	 THEMAS, thermostats, heating and cooling units, assumptions, supervisor 
 
-Test Objective£º Verify the THE Energy Management System can work
+Test ObjectiveÂ£Âº Verify the THE Energy Management System can work
 
-Data Pool£º
+Data PoolÂ£Âº
 ------------------------------------------------------------------------------------
 	 Data Partition   | Initialization Data, Operational Parameters, Utilization Parameters, H/C Request, Temperature Data, Invalid Temperature, Valid Temperature, Valid Temperatures, Trigger Values, Overtemp Values, Temperature Trigger Exceeded, Temperature Limit Exceeded, Unit Unavailable, H/C ON/OFF Request, System Event Data, Approved H/C Request, Heating Unit Signal, Cooling Unit Signal, Unit Status, System Events, Alarm Data, Events, Alarm Events, Denied H/C Request, Event Data, Report Data 
 ------------------------------------------------------------------------------------
