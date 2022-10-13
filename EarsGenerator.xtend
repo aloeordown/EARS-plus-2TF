@@ -40,8 +40,6 @@ class EarsGenerator extends AbstractGenerator {
 			var Ure=resource.allContents.toIterable.filter(UbiquitousRe).toList
 			var CR=resource.allContents.toIterable.filter(ComplexRe).toList
 			var DR=resource.allContents.toIterable.filter(DataRe).toList
-			fsa.generateFile(re.fullyQualifiedName.toString("/")+ ".txt",output(re, Ure, CR))
-//            fsa.generateFile('Test FrameWork of '+ re.fullyQualifiedName.toString("/") + ".testmodel", gen(re, Ure, CR, DR))
              fsa.generateFile('Test FrameWork of '+ re.fullyQualifiedName.toString("/") + ".txt", gen(re, Ure, CR, DR))
 		}
 		var  props = new Properties();
@@ -117,21 +115,6 @@ class EarsGenerator extends AbstractGenerator {
 		 «ENDFOR»            
 		 '''
 		 
-	}
-	
-	def output(EARS ears, List<UbiquitousRe> Ure,  List<ComplexRe> CR) {
-		'''
-	   System under test name : «ears.name» 
-	   -----------------------------------------------------
-	   requirements:
-	  «FOR cr:CR»
-	   «cr.rename» : «FOR p:cr.pre» «p.key» «p.trigger» «ENDFOR», «cr.then» «FOR saction:cr.action» «saction.the» «saction.entityname» «saction.modalVp» «saction.response» «saction.timekey»«saction.time» «saction.conj»«ENDFOR».
-	   «ENDFOR»
-	   
-	   «FOR ure:Ure»
-	   «ure.rename» : The «ure.entityname» shall «ure.response».
-	   «ENDFOR» 
-	   '''
 	}
 	
 	def clearEnum(String str){
