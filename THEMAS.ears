@@ -1,0 +1,220 @@
+Requirement for THE Energy Management System:
+Monitor Temperature1 The THEMAS shall receives the valid temperature and system parameters in monitor temperature function.
+Monitor Temperature2 After received data, the THEMAS shall determinie temperature status.
+Monitor Temperature3 After determine temperature status, the thermostats shall exceed temperature limit OR the thermostats shall requested temperature changes.
+Monitor Temperature4 If temperature changes is requested, then the THEMAS shall activate determine heating/cooling mode process and makes a heating/cooling request.
+
+Determine Utilization1 The THEMAS shall receives the heating/cooling request and utilization parameters in determine utilization function.
+Determine Utilization2 After received data, the THEMAS shall processes the status of all heating/cooling units and sends out either unit unavailable or heating/cooling unit needed THEMAS in determine utilization function.
+Determine Utilization5 The THEMAS shall generates either a unit unavailable event which goes into the System Reports function or it generates a heating/cooling signal to turn on/off the units. 
+Determine Utilization4 The THEMAS shall help the determine utilization to do its processes in Monitor Temperature and Initialize System functions.
+
+Initialize System1 The THEMAS shall receives the initialization data in initialize system function.
+Initialize System2 The THEMAS shall clear all heating/cooling signals to start entire system.
+Initialize System3 The THEMAS shall  send thermostat definitions, utilization parameters, trigger values,overtemperature values,valid temperature range to start entire system.
+
+System Reports1 The THEMAS shall receives event data. 
+System Reports2 The THEMAS shall stores all events. 
+System Reports3 The THEMAS shall maintain an efficient heating and cooling system with this function supervising.
+System Reports4 The THEMAS shall interacts with the generate event data process in system reports function.
+
+User Characteristics1 The THEMAS shall be intended to be used by people that maintain the heating and cooling systems in a building.
+User Characteristics2 The THEMAS shall not need intervention from outside users other than the supervisor to maintain operation of THEMAS.
+User Characteristics3 The THEMAS shall provide warnings to the supervisor about faulty temperatures. 
+User Characteristics4 The THEMAS shall display its current status to its supervisor without contain excessive information which could confuse the supervisor.
+User Characteristics5 The THEMAS shall provide information in the form of reports to the supervisor so that the system can be run efficiently.
+ 
+General Constraints1 The THEMAS shall focus its general constraints on the functionality provided by the external devices connected to it.
+General Constraints2 The thermostats shall only provide temperature values and temperature settings.
+General Constraints3 The heating and cooling units shall provide no feedback to  THEMAS system.
+General Constraints4 When a signal is sent to a heating or cooling unit, the THEMAS shall  not be allow to determine whether the signal sent to the unit was realized by the unit under no signal is available. 
+ 
+Assumptions and Dependencies1 While developing requirements for THEMAS system, the assumptions shall have been made about the thermostat hardware and the heating/cooling hardware. 
+Assumptions and Dependencies2 The assumptions shall be stated in the following paragraphs.
+ 
+Operating System Assumptions1 The THEMAS shall be designed to run on the Microsoft  Windows NT  operating system.
+Operating System Assumptions2 The THEMAS shall designe internal process communications to operate on this operating system. 
+Operating System Assumptions3 The thermostats shall complete the communication with heating and cooling units through the interface to these units.
+Operating System Assumptions4 The THEMAS shall run its interfaces on this operating system as well. 
+
+Thermostat Hardware Assumptions1 The thermostats shall have ability to return the current temperature and the current desired temperature setting to the THEMAS system. 
+Thermostat Hardware Assumptions2 The thermostats shall be constantly returning these values with no real time delay in between the thermostat and the THEMAS system. 
+Thermostat Hardware Assumptions3 The thermostats shall have the capability of being set and controlled by a user of the THEMAS system.
+Thermostat Hardware Assumptions4 The thermostats shall send data all in the correct format for the THEMAS system to use.
+
+Heating/Cooling Hardware Assumptions1 the heating and cooling units shall be incapable of returning its current off/on status to the THEMAS system. 
+Heating/Cooling Hardware Assumptions2 When sending these statuses to THEMAS system, the heating and cooling units shall have no real time delay. 
+Heating/Cooling Hardware Assumptions3 The heating and cooling units shall have the capability of being turned off and on by the supervisor of the THEMAS system.
+
+Load H/C Unit Definitions1 The THEMAS shall control the heating and cooling units that are defined as part of the THEMAS system. 
+Load H/C Unit Definitions2 The THEMAS shall reside definitions of the individual heating and cooling systems in an initialization file. 
+Load H/C Unit Definitions3 The THEMAS shall read this file. 
+Load H/C Unit Definitions4 The THEMAS shall derive definitions from the initialization data in the file.
+Load H/C Unit DefinitionsIData INPUT Initialization Data.
+Load H/C Unit Definitions5 The THEMAS shall use the information contained in the initialization data file to determine which heating and cooling units are part of the THEMAS system. 
+Load H/C Unit Definitions6 The heating and cooling units shall be the only one which corresponds to one thermostat in each of four quadrants on each of three floors of the office building.
+Load H/C Unit DefinitionsOData OUTPUT Operational Parameters.
+
+Load Thermostat Definitions1 The thermostats shall have a unique identifier by which that thermostat is identified in the THEMAS system.
+Load Thermostat Definitions2 The THEMAS shall load definitions of thermostat.
+Load Thermostat DefinitionsIData INPUT Initialization Data.
+Load Thermostat Definitions3 While each thermostat is to be used to provide temperature data to THEMAS system, the thermostats shall exist at each quadrant of each floor.
+Load Thermostat Definitions4 The THEMAS shall contain a unique identifier for each thermostat that the system is to monitor in initialization file.
+Load Thermostat Definitions5 The THEMAS shall load identifiers of thermostats which should be read from initialization file during the initialization process.
+Load Thermostat DefinitionsOData OUTPUT Operational Parameters.
+
+Load Utilization Parameters1 The THEMAS shall have a maximum number of heating or cooling units that can be on at any given time.
+Load Utilization Parameters2 The THEMAS shall loads the maximum number of concurrently running units allowed.
+Load Utilization ParametersIData INPUT Initialization Data.
+Load Utilization Parameters1 The THEMAS shall reside maximum number of heating or cooling units that can run concurrently in an initialization file.
+Load Utilization Parameters2 The THEMAS shall read maximum number of concurrently running units from the initialization file and stored in the THEMAS system.
+Load Utilization ParametersOData OUTPUT Utilization Parameters.
+
+Set Trigger Values1 When a heating or cooling unit should be turned on or off, the THEMAS shall  use trigger value in combination with the current temperature to determine.
+Set Trigger ValuesIData INPUT Initialization Data.
+Set Trigger Values2 The THEMAS shall reside trigger values in an initialization file. 
+Set Trigger Values3 The THEMAS shall read the initialization file and establish the trigger value from the data in that file.
+Set Trigger ValuesOData OUTPUT Operational Parameters.
+
+Set Overtemp ValuesIData INPUT Initialization Data.
+Set Overtemp Values1 The THEMAS shall ensure the temperature reported by a given thermostat should not exceed a maximum deviation value of 3 degrees Fahrenheit.
+Set Overtemp Values2 The THEMAS shall reside overtemperature values in an initialization file.
+Set Overtemp Values3 The THEMAS shall read the initialization file and establish the overtemperature value from the data in that file.
+Set Overtemp ValuesOData OUTPUT Operational Parameters.
+
+Establish Valid Temperature Range1 The THEMAS shall only respond to temperatures that are within a reasonable value.
+Establish Valid Temperature RangeIData INPUT Initialization Data.
+Establish Valid Temperature Range2 The THEMAS shall reside valid temperature range value in an initialization file.
+Establish Valid Temperature Range3 The THEMAS shall read the initialization file and establish the valid temperature range from the data in it.
+Establish Valid Temperature RangeOData OUTPUT Operational Parameters.
+
+Initialize System1 When system is initialized, the THEMAS shall first turn off all the heating and cooling units. 
+thenInitialize System2 The THEMAS shall check all thermostats and determine whether any settings of thermostat require a heating or cooling unit to be turned on back on.
+Initialize SystemIData INPUT Operational Parameters.
+Initialize System3 The THEMAS shall first determine a known state of all the heating and cooling units by issuing a request to turn off all the units. 
+thenInitialize System4 The THEMAS shall read the current temperature values and current temperature settings of each thermostat. 
+Initialize System5 If settings reflect a need for a heating or cooling unit to be turned on, then the THEMAS shall issue a request to turn on the appropriate unit.
+Initialize System6 The THEMAS shall make determination in accordance with rules outlined in Determine Temperature Status.
+Initialize SystemOData OUTPUT H/C Request.
+
+Validate Temperature1 The THEMAS shall only respond to temperatures from the thermostats that are in the specified valid range.
+Validate TemperatureIData1 INPUT Operational Parameters.
+Validate TemperatureIData2 INPUT Temperature Data.
+Validate Temperature2 The THEMAS shall recognize two types of temperature data from the thermostats which is the temperature setting and the current temperature. 
+Validate Temperature3 The THEMAS shall process both types of data.
+Validate Temperature4 The THEMAS shall compare a current temperature value that is received from an individual thermostat with the valid temperature range values.
+Validate Temperature5 If a current temperature value is strictly less than lower value of valid temperature range, OR if a received temperature value is strictly greater than upper value of valid temperature range, then the THEMAS shall identify the current temperature value as an invalid temperature and output an invalid temperature status. 
+Otherwise Validate Temperature7 The THEMAS shall output a valid temperature status.
+Validate Temperature8 The THEMAS shall compare a temperature setting value that is received from an individual thermostat with the valid temperature range values.
+Validate Temperature9 If temperature setting value is strictly less than lower value of valid temperature range, OR if a temperature setting value is strictly greater than upper value of valid temperature range, then the THEMAS shall identify the temperature setting as an invalid temperature, AND the THEMAS shall output an invalid temperature status. 
+Otherwise Validate Temperature10 The THEMAS shall realize the value for temperature setting of thermostat .
+Validate TemperatureOData1 OUTPUT Invalid Temperature.
+Validate TemperatureOData2 OUTPUT Valid Temperature.
+
+Determine Temperature Status1 The THEMAS shall determine what time a reported temperature or a changed temperature setting exceeds the limits set by the overtemperature values.
+Determine Temperature Status2 The THEMAS shall report temperatures that exceed the overtemperature limits as such.
+Determine Temperature Status3 The THEMAS shall output temperatures that do not exceed these limits for subsequent processing.
+Determine Temperature StatusIData1 INPUT Valid Temperatures.
+Determine Temperature StatusIData2 INPUT Trigger Values.
+Determine Temperature StatusIData3 INPUT Overtemp Values.
+Determine Temperature Status4  When temperature value exceeds specified limits, the THEMAS shall compare the reported temperature value to the temperature setting and detect.
+Determine Temperature Status5 The THEMAS shall use definitions LO is Lower Overtemperature, Value is TSET minus OD, UO is Upper Overtemperature, Value is TSET plua OD, to clarify these conditions.
+Determine Temperature Status6 If T is LO, OR if UO is T, then the THEMAS shall recognize this condition as the temperature limit has been exceeded. 
+Determine Temperature Status7 The THEMAS shall output the condition of the temperature limit having been exceeded.
+Determine Temperature Status8 If LO equals T equals UO, then the THEMAS shall output the temperature status.
+Determine Temperature StatusOData1 OUTPUT Temperature Trigger Exceeded.
+Determine Temperature StatusOData2 OUTPUT Temperature Limit Exceeded.
+
+Determine H/C Mode1 When a current temperature value exceeds a current temperature setting by a pre -defined amount, the THEMAS shall activate the appropriate heating or cooling unit.
+Determine H/C ModeIData INPUT Temperature Trigger Exceeded.
+Determine H/C Mode2 The THEMAS shall test two conditions for each individual thermostat which is the settings of thermostat are satisfied and the temperature of thermostat indica tes it requires a heating or cooling unit to be turned on.
+Determine H/C Mode3 The THEMAS shall use the following definitions to clarify these conditions-LT is Lower Trigger, Value equals TSET - TD, UT is Upper Trigger, Value equals TSET plus TD.
+NextDetermine H/C Mode4 The THEMAS shall use condition1-LT equals T equals UT which indicates the current temperature setting of thermostat is satisfied.
+Determine H/C Mode5 If LT equals T equals UT is true, then the THEMAS shall output a request to turn off both the heating unit and the cooling unit.
+NextDetermine H/C Mode6 The THEMAS shall use condition2-LO equals LT or equals UT and T equals UO which indicates the need for a heating or cooling unit to be turned on.
+Determine H/C Mode7 If LO equals LT or equals UT and T equals UO is true and LO is no more than T less than LT, then the THEMAS shall output a request to turn on the heating unit.
+Determine H/C Mode8 If LO equals LT or equals UT and T equals UO is true and UT less than T no more than UO, then the THEMAS shall output a request to turn on the cooling unit.
+Determine H/C ModeOData OUTPUT H/C Request.
+
+Determine Status of All H/C Units1 The THEMAS shall control each of the heating and cooling units that are defined for the system.
+Determine Status of All H/C Units2 The THEMAS shall limit the number of heating or cooling units t hat may be running simultaneously.
+Determine Status of All H/C UnitsIData1 INPUT Operational Parameters.
+Determine Status of All H/C UnitsIData2 INPUT H/C Request.
+Determine Status of All H/C Units3 The THEMAS shall maintain the ON/OFF status of each heating and cooling unit.
+Determine Status of All H/C Units4 When a request to turn on or off a heating or cooling unit, the THEMAS shall run following processing.
+NextDetermine Status of All H/C Units5 When a request to turn on a heating or cooling unit is received, the THEMAS shall determine whether the request can be honored. 
+NextDetermine Status of All H/C Units6 If maximum number of heating or cooling units is already running, the THEMAS shall add request to a LIFO queue.
+NextDetermine Status of All H/C Units7 If maximum number of heating or cooling units is not running, the THEMAS shall generate a request to turn on the requested unit.
+NextDetermine Status of All H/C Units8 When a request to turn off a heating or cooling unit is received, the THEMAS shall check the queue of waiting heating and cooling requests. 
+NextDetermine Status of All H/C Units9 If queue is not empty, the THEMAS shall remove one request from the LIFO queue and check the current state of the thermostat for which the queued request was made. 
+NextDetermine Status of All H/C Units10 If that thermostat still needs a heating o r cooling unit turned on, the THEMAS shall submit a request to turn that unit on.
+Determine Status of All H/C UnitsOData1 OUTPUT Unit Unavailable.
+Determine Status of All H/C UnitsOData2 OUTPUT H/C ON/OFF Request.
+
+Generate Unit Unavailable Event1 When a request for a heating unit or cooling to be turned is denied, the THEMAS shall record that event AND the THEMAS shall generate an event.
+Generate Unit Unavailable Event2 The THEMAS shall use information in these events for creating statistical reports.
+Generate Unit Unavailable EventIData INPUT Unit Unavailable.
+Generate Unit Unavailable Event3 The THEMAS shall realize the thermostat and heating or cooling information and use this information to generate a specific system event.
+Generate Unit Unavailable Event4 The THEMAS shall have system event consist of a description of the event type-a request denied event which is a designation of the thermostat that made the request, and a designation of the heating or cooling unit that was not turned on.
+Generate Unit Unavailable EventOData OUTPUT System Event Data.
+
+Generate H/C Request1 The THEMAS shall control the heating and cooling units that are designated as part of the THEMAS system.
+Generate H/C RequestIData INPUT  H/C ON/OFF Request.
+Generate H/C Request2 When a request to turn on or off a heating or cooling unit is made, the THEMAS shall generate the appropriate request to carry out that request.
+NextGenerate H/C Request3 The THEMAS shall generate request include the designation of the heating or cooling unit and a flag to indicate whether that unit is to be turned on or off.
+Generate H/C RequestOData OUTPUT Approved H/C Request.
+
+Generate H/C Signal1 When a request to turn on or off a heating or cooling unit, the THEMAS shall provide the necessary control signal for the unit which provide an indication of the status of unit at the requesting thermostat.
+Generate H/C SignalIData INPUT Approved H/C Request.
+Generate H/C Signal2 The THEMAS shall recognize the values for the requested heating or cooling unit and the ON or OFF status that is being requested.
+Generate H/C Signal3 The THEMAS shall generate necessary signal to the heating or cooling unit.
+Generate H/C Signal4 The THEMAS shall designate the part of this process that will issue the signal as TBD to be determined since the interface to con trol the units has not been defined,  .
+Generate H/C Signal5 The THEMAS shall output the status information of the heating or cooling unit, in order to provide an indication of the status of the heating or cooling unit back to the requesting thermostat.
+Generate H/C Signal6 The THEMAS shall generate an event each time a change is made to the status of a heating or cooling unit, in order to provide an operational history and statistical reports. 
+Generate H/C Signal7 The THEMAS shall contain the identification of the heating or cooling unit whose status is being changed.
+Generate H/C SignalOData1 OUTPUT Heating Unit Signal.
+Generate H/C SignalOData2 OUTPUT Cooling Unit Signal.
+Generate H/C SignalOData3 OUTPUT Unit Status.
+Generate H/C SignalOData4 OUTPUT System Events.
+
+Generate Alarm Data1 The THEMAS shall result in two events an alarm condition which are an invalid temperature value is reported from a thermostat or the reported temperature has exceeded the defined limits.
+Generate Alarm Data2 The THEMAS shall determine which alarm event is to be generated.
+Generate Alarm DataIData1 INPUT Invalid Temperature.
+Generate Alarm DataIData2 INPUT Temperature Limit Exceeded.
+Generate Alarm Data3 When THEMAS system detects a request for an alarm, the THEMAS shall detect which of the two alarms are being requested.
+Generate Alarm Data4 If THEMAS system detects an invalid temperature, then the THEMAS shall output a continuous series of alternating 500 Hz and 700 Hz beeps on the computer of supervisor.
+Generate Alarm Data5 The THEMAS shall ensure each beep have a three - quarter second duration.
+Generate Alarm Data6 The THEMAS shall ensure this series of beeps continue until the supervisor manually resets the alarm through the interface window of supervisor.
+Generate Alarm Data7 If  system detects a temperature limit has been exceeded, the THEMAS shall output a continuous series of alternating 1000 Hz and 1500 Hz beeps on the computer of supervisor.
+Generate Alarm Data8 The THEMAS shall ensure each beep have a one-half second duration.
+Generate Alarm Data9 The THEMAS shall ensure this series of beeps continue until the supervisor manually resets the alarm through the interface window of supervisor.
+Generate Alarm Data10 While each time an alarm is requested, the THEMAS shall record an alarm event.
+Generate Alarm Data11 The THEMAS shall provide operational and statistical reports about the system.
+Generate Alarm DataOData1 OUTPUT Alarm Data.
+Generate Alarm Data Alarm2 OUTPUT Events.
+
+Generate Event Data The THEMAS shall identify each event and generate the appropriate event data for each event that is generated.
+Generate Event DataIData1 INPUT Alarm Events.
+Generate Event DataIData2 INPUT System Events.
+Generate Event DataIData3 INPUT Denied H/C Request.
+Generate Event DataIData4 When an event occurs, the THEMAS shall identify the event type and format an appropriate event message.
+Generate Event DataIData5 The THEMAS shall record each event by a description and the current system time for that event.
+Generate Event DataIData6 The THEMAS shall record this information in a Microsoft Access database that should reside on the computer of supervisor.
+Generate Event DataOData OUTPUT Event Data.
+
+Change Thermostat Setting The THEMAS shall provide the supervisor a mechanism to change the temperature setting of any of the thermostats in the system.
+Change Thermostat SettingIData INPUT Operational Parameters. 
+Change Thermostat Setting1 The supervisor shall ensure his interface display the available thermostats and their individual current temperature settings.
+Change Thermostat Setting2 The supervisor shall be able to select one of the thermostats and select a value for the current temperature from a list of valid temperatures.
+Change Thermostat SettingOData OUTPUT Temperature Data.
+
+Generate Reports1 The THEMAS shall provide the ability for the supervisor to select between two different types of reports which are the operational history of the THEMAS system for the past twelve months and a statistical summary for any selected month. 
+Generate ReportsIData INPUT Event Data.
+Generate Reports2 The supervisor shall ensure his interface to the THEMAS system  provide a mechanism to select between an operational history report or a statistical summary report.
+Generate Reports3 The THEMAS shall ensure either report consist of an ASCII file whose location.
+Generate Reports4 The THEMAS shall ensure name be selectable by the operator.
+Generate Reports5 If operational history report is selected, the THEMAS shall select all the events from the event database, sort the events by date and time, and create the ASCII report file.
+Generate Reports6 If  statistical report is selected, the THEMAS shall present the operator with a list of available months from which to make a selection.
+Generate Reports7 After selecting one of months, the THEMAS shall generate the ASCII report file.
+Generate Reports8  The THEMAS shall ensure statistical reports consist of the following statistics, the percentage of time each heating and cooling unit was on for each day of that month, and For each thermometer, the ratio of the number of requests for a heating and cooling unit that was granted to the number of requests for a heating or cooling unit that was denied. 
+Generate ReportsOData OUTPUT Report Data.

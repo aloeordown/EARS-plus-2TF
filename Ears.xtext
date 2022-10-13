@@ -1,0 +1,41 @@
+grammar ears.Ears with org.eclipse.xtext.common.Terminals
+
+generate ears "http://www.Ears.ears"
+
+EARS:
+	'Requirement for'  name=stringtype ':'
+	(res+=ReSpecification)* ;
+ //the <system name> shall <system response> 
+ReSpecification:
+//	EventDriven | UnWantedBehaviours | StateDriven | OptionalFeatures | UbiquitousRe ;
+	UbiquitousRe |  ComplexRe | DataRe;
+	
+DataRe:
+	rename=requirementname datatype=Datatype data=Data'.';	
+	
+//Ubiquitous requirements 
+UbiquitousRe:
+	rename=requirementname  the='The' entityname=Entity  modalVp='shall' response=Response  (timekey='within' time=timetype)?'.' (derive=DeriveRelation)? (rerealtion=conjunction)?;  
+ 
+ComplexRe:
+	rename=requirementname  (pre+=Pre)*  then='then'? (action+=SysAction)* '.' (derive=DeriveRelation)? (rerealtion=conjunction)?;
+
+Pre:
+	(pconj=conjunction)? key=('When' | 'when'  |  'If' | 'if' | 'While' | 'while' |'Where' | 'where' | 'After'|'after' )  trigger=Trigger ',';
+//| 'During' | 'during'
+
+SysAction:
+	the='the' entityname=Entity  modalVp='shall' response=Response (timekey='within' time=timetype)? (conj=conjunction)?
+;
+
+conjunction:'AND'|'OR';
+keywordthe:'the';
+Datatype:'INPUT'| 'OUTPUT'|'ACROSS';
+stringtype:((INT)?ID+('-')?('/')?)*;
+timetype:((INT)?ID+)*;
+Data:((INT)?ID+('-')?('/')?(',')?)*;
+requirementname:stringtype;
+Entity:stringtype;
+Response:(keywordthe?(INT)?ID+('-')?('/')?(',')?)*;
+Trigger:stringtype;
+DeriveRelation:'DER'|'END';

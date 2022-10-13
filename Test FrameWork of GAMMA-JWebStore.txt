@@ -1,0 +1,258 @@
+System testing Security Test Context of GAMMA-JWebStore:
+Test Configuration:
+------------------------------------------------------------------------------------
+     Test Item      |  GAMMA-JWebStore              
+------------------------------------------------------------------------------------
+ Test Component  | 	 WebStore, customers 
+
+Test Objective£º Verify the GAMMA-JWebStore can work
+
+Data Pool£º
+------------------------------------------------------------------------------------
+	 Data Partition   | account information, inventory information, product information, order information 
+------------------------------------------------------------------------------------
+
+Test set:
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Security RequirementsTC_PASS
+ Test Requirement |The WebStore shall validate credit cards against fraud.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Security RequirementsTC_FAIL
+ Test Requirement |The WebStore shall validate credit cards against fraud.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Security RequirementsTC_PASS
+ Test Requirement |The WebStore shall encrypt all sensitive information via https.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Security RequirementsTC_FAIL
+ Test Requirement |The WebStore shall encrypt all sensitive information via https.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Security RequirementsTC_PASS
+ Test Requirement |The WebStore shall encrypt all customer data in database.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Security RequirementsTC_FAIL
+ Test Requirement |The WebStore shall encrypt all customer data in database.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Security RequirementsTC_PASS
+ Test Requirement |The WebStore shall auto detect IP DOS attacks and block IP automatically.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Security RequirementsTC_FAIL
+ Test Requirement |The WebStore shall auto detect IP DOS attacks and block IP automatically.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Security RequirementsTC_PASS
+ Test Requirement |The WebStore shall detect consecutive failed login attempts.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Security RequirementsTC_FAIL
+ Test Requirement |The WebStore shall detect consecutive failed login attempts.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Security RequirementsTC_PASS
+ Test Requirement |The WebStore shall be protected by open source firewall called Firestarter.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Security RequirementsTC_FAIL
+ Test Requirement |The WebStore shall be protected by open source firewall called Firestarter.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |OETC_PASS
+ Test Requirement |The WebStore shall operate with the following internet browswes, Microsoft Internet Explorer version six and seven, Net scape Communicator Version four and five.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |OETC_FAIL
+ Test Requirement |The WebStore shall operate with the following internet browswes, Microsoft Internet Explorer version six and seven, Net scape Communicator Version four and five.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |OETC_PASS
+ Test Requirement |The WebStore shall operate on an Intel based system with Slackware Linux two point six and Apache Web Server.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |OETC_FAIL
+ Test Requirement |The WebStore shall operate on an Intel based system with Slackware Linux two point six and Apache Web Server.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |OETC_PASS
+ Test Requirement |The WebStore shall use SQL based database to store inventory information.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |OETC_FAIL
+ Test Requirement |The WebStore shall use SQL based database to store inventory information.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |OETC_PASS
+ Test Requirement |The WebStore shall use USB interface and divers and provided by Yoggie Corporation.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |OETC_FAIL
+ Test Requirement |The WebStore shall use USB interface and divers and provided by Yoggie Corporation.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Customer AccountsTC_PASS
+ Test Requirement |The WebStore shall allow customers create accounts to store their customer profiles.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Customer AccountsTC_FAIL
+ Test Requirement |The WebStore shall allow customers create accounts to store their customer profiles.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Customer AccountsTC_PASS
+ Test Requirement |The WebStore shall allow customers configure contact information.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Customer AccountsTC_FAIL
+ Test Requirement |The WebStore shall allow customers configure contact information.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Customer AccountsTC_PASS
+ Test Requirement |The WebStore shall allow customers view their purchase history.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Customer AccountsTC_FAIL
+ Test Requirement |The WebStore shall allow customers view their purchase history.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Customer AccountsTC_PASS
+ Test Requirement |The WebStore shall allow customers confirm orders.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Customer AccountsTC_FAIL
+ Test Requirement |The WebStore shall allow customers confirm orders.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Customer AccountsTC_PASS
+ Test Requirement |The WebStore shall allow customers register, log in and log out of their accounts.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Customer AccountsTC_FAIL
+ Test Requirement |The WebStore shall allow customers register, log in and log out of their accounts.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Customer AccountsTC_PASS
+ Test Requirement |The WebStore shall store customers profile which also include payment information, such as the ability to store credit card information and address information.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Customer AccountsTC_FAIL
+ Test Requirement |The WebStore shall store customers profile which also include payment information, such as the ability to store credit card information and address information.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Inventory ManagementTC_PASS
+ Test Requirement |The WebStore shall store products in multi-tiered categories.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Inventory ManagementTC_FAIL
+ Test Requirement |The WebStore shall store products in multi-tiered categories.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Inventory ManagementTC_PASS
+ Test Requirement |The WebStore shall allow for administrators to update the categories, the products placed in categories, and the specific product details.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Inventory ManagementTC_FAIL
+ Test Requirement |The WebStore shall allow for administrators to update the categories, the products placed in categories, and the specific product details.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Shopping CartTC_PASS
+ Test Requirement |The customers shall also be able to add products into the shopping cart.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Shopping CartTC_FAIL
+ Test Requirement |The customers shall also be able to add products into the shopping cart.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Shopping CartTC_PASS
+ Test Requirement |The WebStore shall clearly display the number of items in the cart, along with the total cost.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Shopping CartTC_FAIL
+ Test Requirement |The WebStore shall clearly display the number of items in the cart, along with the total cost.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Shopping CartTC_PASS
+ Test Requirement |The customers shall also be able to add to or remove products from the shopping cart prior to checkout and order confirmation.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Shopping CartTC_FAIL
+ Test Requirement |The customers shall also be able to add to or remove products from the shopping cart prior to checkout and order confirmation.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Order ConfirmationTC_PASS
+ Test Requirement |The customers shall receive a confirmation email with the specific order details.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Order ConfirmationTC_FAIL
+ Test Requirement |The customers shall receive a confirmation email with the specific order details.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |InterfaceTC_PASS
+ Test Requirement |The customers shall be presented with an unambiguous interface to assist in browsing the categories and products.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |InterfaceTC_FAIL
+ Test Requirement |The customers shall be presented with an unambiguous interface to assist in browsing the categories and products.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |InterfaceTC_PASS
+ Test Requirement |The customers shall be able to search for products matching their search criteria.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |InterfaceTC_FAIL
+ Test Requirement |The customers shall be able to search for products matching their search criteria.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |InterfaceTC_PASS
+ Test Requirement |The WebStore shall be compatible with all major web browsers such as Internet Explorer, Mozilla Navigator, Mozilla Firefox, Opera, and Safari.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |InterfaceTC_FAIL
+ Test Requirement |The WebStore shall be compatible with all major web browsers such as Internet Explorer, Mozilla Navigator, Mozilla Firefox, Opera, and Safari.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |InterfaceTC_PASS
+ Test Requirement |The WebStore shall implement an Application Interface to allow for various plug-ins to interact with the system.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |InterfaceTC_FAIL
+ Test Requirement |The WebStore shall implement an Application Interface to allow for various plug-ins to interact with the system.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |InterfaceTC_PASS
+ Test Requirement |The WebStore shall well document plug-in API.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |InterfaceTC_FAIL
+ Test Requirement |The WebStore shall well document plug-in API.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |InterfaceTC_PASS
+ Test Requirement |The WebStore shall provided specifications to plug-in developers.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |InterfaceTC_FAIL
+ Test Requirement |The WebStore shall provided specifications to plug-in developers.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Communications InterfacesTC_PASS
+ Test Requirement |The WebStore shall send an e-mail to System Administrator regarding any technical queries from customers or sales people.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Communications InterfacesTC_FAIL
+ Test Requirement |The WebStore shall send an e-mail to System Administrator regarding any technical queries from customers or sales people.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |UnfunctionalReqTC_PASS
+ Test Requirement |The WebStore shall be able to handle 1000 customers logged in concurrently at the same time.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |UnfunctionalReqTC_FAIL
+ Test Requirement |The WebStore shall be able to handle 1000 customers logged in concurrently at the same time.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |UnfunctionalReqTC_PASS
+ Test Requirement |The WebStore shall be able to retrieve 200 products per second.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |UnfunctionalReqTC_FAIL
+ Test Requirement |The WebStore shall be able to retrieve 200 products per second.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |UnfunctionalReqTC_PASS
+ Test Requirement |The WebStore shall be able to add product to shopping cart.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |UnfunctionalReqTC_FAIL
+ Test Requirement |The WebStore shall be able to add product to shopping cart.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |UnfunctionalReqTC_PASS
+ Test Requirement |The WebStore shall be able to search for a specified product.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |UnfunctionalReqTC_FAIL
+ Test Requirement |The WebStore shall be able to search for a specified product.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |UnfunctionalReqTC_PASS
+ Test Requirement |The WebStore shall be able to email customer and vendor.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |UnfunctionalReqTC_FAIL
+ Test Requirement |The WebStore shall be able to email customer and vendor.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |UnfunctionalReqTC_PASS
+ Test Requirement |The WebStore shall be able to validate credit card.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |UnfunctionalReqTC_FAIL
+ Test Requirement |The WebStore shall be able to validate credit card.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |UnfunctionalReqTC_PASS
+ Test Requirement |The WebStore shall be able to acquire shipping charges.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |UnfunctionalReqTC_FAIL
+ Test Requirement |The WebStore shall be able to acquire shipping charges.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |UnfunctionalReqTC_PASS
+ Test Requirement |The WebStore shall be able to restore 1000 records per second.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |UnfunctionalReqTC_FAIL
+ Test Requirement |The WebStore shall be able to restore 1000 records per second.
+--------------------------------------------------------------------------------------------------------------------------------
+	    Test Case      |Order ConfirmationTC_PASS
+ Test Requirement | After checkout ,   the customers shall be able to confirm the order  .
+--------------------------------------------------------------------------------------------------------------------------------
+		 	    Test Case      |Order ConfirmationTC_FAIL
+		  Test Requirement | After checkout ,   the customers shall be able to confirm the order  .
+	   		
+--------------------------------------------------------------------------------------------------------------------------------
+	    Test Case      |Order ConfirmationTC_PASS
+ Test Requirement | If order is incorrect ,   the customers shall be able to revise and update their order  .
+--------------------------------------------------------------------------------------------------------------------------------
+		 	    Test Case      |Order ConfirmationTC_FAIL
+		  Test Requirement | If order is incorrect ,   the customers shall be able to revise and update their order  .
+	   		
+--------------------------------------------------------------------------------------------------------------------------------
+	    Test Case      |Communications InterfacesTC_PASS
+ Test Requirement | When customers have ordered items ,   the WebStore shall send an e-mail confirmation to customers that the items they ordered will be delivered to the shipping address along with tracking number  .
+--------------------------------------------------------------------------------------------------------------------------------
+		 	    Test Case      |Communications InterfacesTC_FAIL
+		  Test Requirement | When customers have ordered items ,   the WebStore shall send an e-mail confirmation to customers that the items they ordered will be delivered to the shipping address along with tracking number  .
+	   		

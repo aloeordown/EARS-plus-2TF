@@ -1,0 +1,250 @@
+Requirement for pontis Bridge Management System:
+PURPOSE OF THE PRODUCT1 The pontis System shall provide licensing agencies with an up-to-date tool for bridge management, including data management, condition assessment, model development, needs analysis, reporting, and interaction with other agency systems.
+PURPOSE OF THE PRODUCT2 The pontis System shall be the next generation of the Pontis product, currently deployed in more than 45 agencies in the U.S. and abroad.
+PURPOSE OF THE PRODUCT3 The pontis System shall support a range of new functionality, including import and export of data in eXstensible Markup Language based on TransXML schema being developed through National Cooperative Highway Research Program Project, XML Schemas for Exchange of Transportation Data.
+PURPOSE OF THE PRODUCT4 The pontis System shall improved approaches to modeling bridge needs through incorporation of research results from NCHRP, Multiple-Objective Optimization for Bridge Management Systems.
+PURPOSE OF THE PRODUCT5 The pontis System shall improved user interfaces for bridge-level analysis and project planning.
+PURPOSE OF THE PRODUCT6 The pontis System shall support for multiple asset types.
+PURPOSE OF THE PRODUCT7 The pontis System shall provide seamless support to its licensees for potential changes in the National Bridge Inventory coding standards. 
+
+Specific goal The pontis System shall provide the AASHTO member agencies and licensees with a readily-accessible, robust repository for bridge information, technically correct capabilities to perform bridge management tasks of all types, a technologically up-to-date development foundation, streamlined, simpler application and deployment mechanisms, a flexible, customizable application which users can extend to solve agency, reservation of significant agency investments in BMS generally and Pontis specifically, including expenditures of time, money, training and other agency resource.
+
+Development Technology Constraints1 The pontis System shall be developed using Microsoft technologies. DER
+Development Technology Constraints2 The pontis System shall be a Microsoft NET application consisting of a combination of stand-alone, thin client, and back-end server applications. AND
+Development Technology Constraints3 The pontis System shall maximize the use of third-party code libraries, whether fee-licensed or open-source, to minimize original development costs to the greatest extent possible. 
+
+General Solution Constraints1 The pontis System shall take full advantage of web display capabilities including, in particular, screen real estate management to minimize scrolling, paging and tabbing. 
+General Solution Constraints2 The pontis System shall support its existing relational databases of Sybase Adaptive Server Anywhere, Oracle, and Microsoft SQL Server as the database for its information repository.
+General Solution Constraints3 The pontis System shall integrate its bridge information  with a more general asset management database structure which may incorporate other types of assets such as sign structures, high-mast towers, walls, pavements, or buildings.
+General Solution Constraints4 The pontis System shall be a GIS-aware application that must operate properly with an GIS of agency technology whether ESRI, Intergraph, Open GIS, or others. 
+General Solution Constraints5 The pontis System shall observe industry standard protocols in this regard and avoid vendor specific implementation approaches. 
+
+ASSUMPTIONS1 The pontis System shall not assume a uniform operating environment and must accommodate both disconnected and connected users.
+ASSUMPTIONS2 The pontis System shall maintain consistency with the existing deployed ver4 application.
+ASSUMPTIONS3 The pontis System shall incorporate its design with any Federal NBI changes that may arise during the design and development period.
+ASSUMPTIONS4 The pontis System shall use technology that the member agencies of AASHTO can deploy. 
+ASSUMPTIONS5 The pontis System shall be designed as a deployed/installed application in agencies.
+ASSUMPTIONS6 The pontis System shall not be designed as a hosted application, although it may well operate perfectly acceptably in a hosted configuration, such as a Citrix environment. 
+ASSUMPTIONS7 The pontis System shall be a licensed product, which AASHTO will maintain ownership over, and which will be deployed with license protection to certain licensees such as consultants, international agencies, and academic institutions. 
+ASSUMPTIONS8 The pontis System shall interact effectively and properly with the other BRIDGEWare products.
+ASSUMPTIONS9 The pontis System shall provide two-way XML data exchange with TransXML schema once it is established. 
+ASSUMPTIONS10 The pontis System shall provide well-defined and documented access to selected product functionality and data for third-party developers. 
+
+View Bridge Data1 The user shall be able to view the data stored in the Physical Inventory tables through the Pontis graphical user interface.
+View Bridge Data2 The user shall be able to switch between predefined structure lists. 
+View Bridge Data3 The user shall be able to select structures by structure ID, district, county, administrative area, ownership, custodianship, functional class, NHS status, on/off system, inspector, bridge group, inspection due dates, and all or some environment and elements. AND 
+View Bridge Data4 The pontis System shall restrict query depending on the user privilege.
+View Bridge Data5 The user shall be able to find structures based on the structure ID, structure name, feature intersected, facility carried, route number, LRS Inventory Route, KM/mile posts, structure types, design types and materials, and by searching the notes fields.
+View Bridge Data6 The user shall be able to enter a WHERE clause of the SQL query in the Find and the Filter window and run a query against the bridges in the database. AND
+View Bridge Data7 The pontis System shall verify query. AND                                                                            
+View Bridge Data8 The pontis System shall report SQL errors to the user for correction. AND                                                                                                                                                                          
+View Bridge Data9 The pontis System shall make capability is an application privilege. AND                                                                                                                                   
+View Bridge Data10 The pontis System shall automatically apply Bridge-level security of users. 
+View Bridge Data10 The user shall be able to enter a WHERE clause of the SQL query in the Find and the Filter window and run a query against the bridges in the database. 
+View Bridge Data11 The user shall be able to select a structure by directly typing in the structureID in GUI, with the display scrolling to that structure. 
+View Bridge Data12 The	pontis System shall display the data in the appropriate unit of measurement as configured for the application. AND
+View Bridge Data13 The pontis System shall make this be a permanent modal setting for the application. AND
+View Bridge Data14 The pontis System shall make this setting be configurable.
+View Bridge Data15 The pontis System shall allow user to select bridges on a supported map display.
+View Bridge Data16 After user select bridge, the pontis System shall generate a bridge list for user.
+ 
+View Project Data1 The user shall be able to view the data stored in the Project Planning tables through the GUI.
+View Project Data2 The user shall be able to switch between predefined project lists.
+View Project Data3 The user shall be able to filter and select projects and work candidates.
+DATA ACROSS structure ID, project ID, program, action type, project status, review status, treatment, program year, project end date.
+View Project Data4 The user shall be able to find projects.
+DATA2 ACROSS project ID, project name, project status, structure ID, program. 
+View Project Data5 The user shall be able to enter a WHERE clause of the SQL query in the Find and the Filter window and run a query against the projects in the database.
+View Project Data6 The user shall be able to select a project by directly typing in the project ID in the GUI, with the display scrolling to that structure.
+View Project Data7 The pontis System shall allow user to select projects or work on a supported map display.
+View Project Data8 After user select projects, the pontis System shall generate a project/bridge list for user.
+
+Generate Predefined Reports1 The user shall be able to select and execute predefined reports to view data.
+VIEWDATA  ACROSS bridge data, project data, preservation model data, program simulation results, configuration data.
+Generate Predefined Reports2 The pontis System shall use existing Pontis reports to form the basis for the predefined reports to be provided in Pontis5. 
+Generate Predefined Reports3 The user shall be able to create reports in a NET compliant report generator other than InfoMaker and review these reports from in the Pontis GUI.
+Generate Predefined Reports4 The pontis System shall provide the ability to integrate current selections with a NET compliant report generator other than InfoMaker.
+Generate Predefined Reports5 The pontis System shall provide the ability to incorporate PDF files into standard Pontis reports.
+Generate Predefined Reports6 The system shall provide the ability to save reports in PDF, HTML, and XML formats. 
+
+Select and View Pontis Information Using Maps1 The pontis System shall provide the ability to create any report that is bridge or project based by selecting the relevant driver records from a map display. 
+Select and View Pontis Information Using Maps2 The pontis System shall provide the ability to create or refresh a map display from a set of bridge or project records selected in the Pontis desktop.
+
+Create/Edit Structure1 The user shall be able to create a new structure with a user-defined bridge key. 
+Create/Edit Structure2 The user shall be able to create a new structure by copying all data of an existing structure. 
+Create/Edit Structure3 The user shall be able to create new structures by importing from asupported file type. AND
+Create/Edit Structure4 The pontis System shall  determine supported file types, but will include at least PDI, NBI, and XML. 
+Create/Edit Structure5 The user shall be able to edit and remove existing structures.
+Create/Edit Structure6 The pontis System shall provide the ability to mark a bridge with any of several status values.
+Create/Edit Structure7 The pontis System shall automatically filter displays to recognize the status value.
+Create/Edit Structure8 The pontis System shall support storage and management of information for bridges in a design or preconstruction state.
+Create/Edit Structure9 The user shall be able to renumber the bridge key identifier and have the change made globally. AND
+Create/Edit Structure10 The pontis System shall restrict this function depending on the user privilege.
+
+Create/Edit Inspection1 The user shall be able to create a new inspection. 
+Create/Edit Inspection2 The user shall be able to create a new inspection by copying a previous inspection. 
+Create/Edit Inspection3 The user shall be able to identify and select any previous inspection as the source for the copy action. AND
+Create/Edit Inspection4 The pontis System shall make selection by combination of date,inspection type, inspector, or inspection control group. 
+Create/Edit Inspection5 The pontis System shall have a short-form interface for inspection data entry with specifics of design and functionality to be determined as part of the technical design.
+Create/Edit Inspection6 When creating a new inspection, the user shall have the option to copy the notes from previous inspection. 
+Create/Edit Inspection7 The user shall be able to create new inspections by importing an PDI file. 
+Create/Edit Inspection8 The user shall be able to add new elements to the structure. 
+Create/Edit Inspection9 The user shall be able to edit all the NBI data.
+Create/Edit Inspection10 The pontis System shall prohibit changes to calculated results such as Sufficiency Rating or NBI Appraisal Ratings  except for secured, privileged users.
+Create/Edit Inspection11 The user shall be able to edit element inspection data.
+Create/Edit Inspection12 The user shall be able to edit the bridge inventory items excluding the dependent/derived values.
+Create/Edit Inspection13 The user shall be able to edit inspection and structure notes.
+Create/Edit Inspection14 The pontis System shall be capable of storing notes in plain text and XML.
+Create/Edit Inspection15 The pontis System shall maximize the notes field size.
+Create/Edit Inspection16 The user shall be capable of setting the size of the notes field. 
+Create/Edit Inspection17 The user shall be able to create and edit work recommendations.
+Create/Edit Inspection18 The pontis System shall be capable of estimating quantity for bridge type work recommendations.
+Create/Edit Inspection19 The user shall be able to enter and update inspection planning information.
+Create/Edit Inspection20 The user shall be able to link and manage multimedia files. 
+Create/Edit Inspection21 The pontis System shall provide an inspection scheduling tool.
+Create/Edit Inspection22 The pontis System shall provide the capability to lock down an inspection record once signed and sealed to prevent deletion or modification.
+Create/Edit Inspection23 The privileged users shall be able to delete an existing inspection unless it is locked down. 
+Create/Edit Inspection24 The user shall be able to sort the element data by unit number, environment,and quantity. 
+Create/Edit Inspection25 The user shall be able to view all data from any two inspections, for a single bridge, in a tiled14 presentation for easy comparison. AND
+Create/Edit Inspection26 The pontis System shall clearly highlight the difference between two inspections in the presentation view/report. 
+Create/Edit Inspection27 The pontis System shall provide a configurable tracking mechanism to ensure that a set of screens and data fields have been reviewed and approved during the course of an inspection.
+
+Calculate Dependent/Derived Inspection Results1 The pontis System shall be capable of calculating NBI condition ratings using the FHWA NBI Translator. 
+Calculate Dependent/Derived Inspection Results2 The pontis System shall be capable of calculating and storing bridge Sufficiency Rating. 
+Calculate Dependent/Derived Inspection Results3 The pontis System shall be capable of calculating appraisal ratings.
+Calculate Dependent/Derived Inspection Results4 The pontis System shall be capable of calculating Structurally Deficient/Functionally Obsolete SD/FO status.
+Calculate Dependent/Derived Inspection Results5 The pontis System shall make the ability of users to update the calculated ratings and status in the database to be a controlled privilege.
+Calculate Dependent/Derived Inspection Results6 The agency shall therefore be able to enforce strict use of calculated translator results for calculating NBI condition ratings.
+Calculate Dependent/Derived Inspection Results7 When dependent fields for ratings are changed and offer user option to recalculate ratings, the pontis System shall be capable of prompting users.
+Calculate Dependent/Derived Inspection Results8 The administrator shall be able to configure the recalculation behavior of the derived data. AND
+Calculate Dependent/Derived Inspection Results9 The administrator shall configure behavior to do nothing. OR
+Calculate Dependent/Derived Inspection Results10 The administrator shall configure behavior to alert user that recalculation is required and give option to recalculate before update/save. OR
+Calculate Dependent/Derived Inspection Results11 When user saves inspection, the administrator shall configure behavior to recalculate silently with no confirmation prompt. 
+Calculate Dependent/Derived Inspection Results12 The pontis System shall eliminate any and all dependencies on workstation control/parameter files for program operation.
+
+Develop Preservation Policy1 The pontis System shall be capable of creating cost and deterioration elicitation records for Pontis users. 
+Develop Preservation Policy2 The pontis System shall be capable of updating the transition probabilities for preservation actions based on expert elicitations. 
+Develop Preservation Policy3 The pontis System shall be capable of updating preservation action costs based on expert elicitations. 
+Develop Preservation Policy4 The pontis System shall be capable of updating transition probabilities for do nothing actions based on historical inspection data.
+Develop Preservation Policy5 The user shall be able to edit the cost and deterioration models through the GUI and immediately see the impact on model recommendations. 
+Develop Preservation Policy6 The pontis System shall be capable of using the transition probabilities and preservation action costs to develop an optimal preservation policy as detailed in the Pontis Technical Manual. 
+Develop Preservation Policy7 If elicitation process fails, the pontis System shall be capable of recovering the model.
+Develop Preservation Policy8 The pontis System shall be capable of restoring the previous action costs, transition probabilities, and preservation policy. 
+Develop Preservation Policy9 The pontis System shall be capable of supporting multiple cost and deterioration models. 
+Develop Preservation Policy10 The pontis System shall be capable of incorporating Health Index targets in a preservation short-term model.
+Develop Preservation Policy11 The pontis System shall streamline the model generation process.
+
+Perform Health Index Targeting1 The pontis System shall be capable of determining the long-term cost of achieving an average health index target for one or more structures, broken down by elements, element categories, for the entire structure.
+
+Provide Preservation Model Dashboard1 The pontis System shall provide a preservation model dashboard integrating the capabilities described above.
+
+Configure Simulation Parameters1 The user shall be able to specify the characteristics of the simulation, including the simulation timeframe, various thresholds for the simulation, the project types included in the simulation, the needs addressed, and the annual budget for the simulation.
+Configure Simulation Parameters2 The user shall be able to update the unit costs and the policy standards governing the improvement model.
+Configure Simulation Parameters3 The user shall be able to modify the technical parameters governing the simulation, including the parameters of the improvement model and the simulation rules. 
+Configure Simulation Parameters4 The user shall be able to select the structural elements to be included in the simulation. 
+Configure Simulation Parameters5 The user shall be able to dynamically determine bridge subsets as part of the scenario settings. 
+
+ Perform Program Simulation1 The pontis System shall be capable of running a program simulation for a selected set of structures and storing the simulation results in the Pontis database.
+ 
+Perform Bridge Analysis1 The user shall be able to choose from Pontis-generated work recommendations, inspector work candidates, and user-defined work items to include in the bridge simulation for a structure. 
+Perform Bridge Analysis2 The pontis System shall be capable of running bridge analysis for a single structure and storing the simulation results in the Pontis database. 
+Perform Bridge Analysis3 The pontis System shall provide a Bridge Analysis Dashboard that will allow the user to choose work items for a structure and the timing of the work, view the impact of the work on the condition of the structure, assign the work candidates to a project, and perform life-cycle cost analysis for the structure.
+
+Create/Edit Programs1 The user shall be able to create new programs by manually entering program information. 
+Create/Edit Programs2 The user shall be able to edit or delete existing programs.
+
+Perform Bridge Analysis1 The user shall be able to create new projects by manually entering the project information. 
+Perform Bridge Analysis2 The user shall be able to edit or delete existing projects.
+Perform Bridge Analysis3 The user shall be able assign Pontis-generated work recommendations, inspector work candidates, and user-specified work items to a project, or remove work items from a project. 
+Perform Bridge Analysis4 The user shall be able to split a project into multiple projects and combine multiple projects into a master project. 
+Perform Bridge Analysis5 The user shall be able to edit the characteristics of multiple projects simultaneously batch update. 
+Perform Bridge Analysis6 The user shall be able to edit the data stored in the Project Planning tables through the GUI.
+Perform Bridge Analysis7 The pontis System shall be capable of tracking and linking funding levels and project budgets. 
+Perform Bridge Analysis8 If project budget exceeds funding, the pontis System shall warn users. 
+Perform Bridge Analysis9 The pontis System shall be capable of grouping work candidates by different action types- bridge-level, element-level, and flexible-level actions.
+
+Perform Data Validation1 The pontis System shall be capable of performing single-field and cross-field validation on NBI data items in batch mode.
+Perform Data Validation2 The pontis System shall be capable of performing configurable input range checks using the DATADICT table upon entering data. 
+Perform Data Validation3 The pontis System shall be capable of performing data validation tasks including cross field validation upon saving data. 
+Perform Data Validation4 The pontis System shall allow users to configure data validation rules which is a privileged operation.
+Perform Data Validation5 The pontis System shall provide data review wizard for comparing incoming bridge data with existing data. AND
+Perform Data Validation6 The pontis System shall highlight errors for easy review.
+Perform Data Validation7 The pontis System shall guarantee atomic database transactions to ensure maximum data integrity, using standard .NET transaction management capabilities.
+Perform Data Validation8 The pontis System shall maximize multi-user concurrency and conflict resolution in the application using standard .NET session and transaction management capabilities. 
+
+Exchange Data1 The user shall be able to exchange data in NBI format.
+Exchange Data2 The user shall be able to exchange data in PDI format as specified in the Pontis Technical Manual. 
+Exchange Data3 The user shall be able to exchange data in XML format. 
+Exchange Data4 The pontis System shall utilize emerging TransXML schema specification17 once established and accepted. 
+Exchange Data5 The user shall be able to exchange bridge inspection data in PDI format.
+Exchange Data6 The user shall be able to designate a recipient for checked-out bridges.
+Exchange Data7 The pontis System shall store all export/import control information in the database for central administration, eliminating any dependency on workstation control files to manage export/import behavior.
+Exchange Data8  The pontis System shall strictly separate transient or volatile batch operation control records from more static control record.
+
+Perform Data Archiving1 The user shall be able to archive data for existing and removed structures.
+Perform Data Archiving2 The pontis System shall provide a selection/filter capability to restrict operations on active, inactive, or all structures during any data archiving activity. 
+Perform Data Archiving3 The pontis System shall provide reporting mechanism for viewing archived data. 
+Perform Data Archiving4 The user shall be able to restore the archived data.
+Perform Data Archiving5 When rows were last changed, the pontis System shall use timestamps in the database to log.
+
+BRIDGEWare Integration Support1 The pontis System shall continue to provide existing application integration capabilities with BRIDGEWare products. 
+BRIDGEWare Integration Support2 The pontis System shall support concurrent storage in the database of planned,active, and inactive structures, and potentially other status/lifecycle phase indicators, to facilitate BRIDGEWare integration. 
+
+Define and Manage User Roles1 The administrator shall be able to create and edit new application roles. 
+Define and Manage User Roles2 The administrator shall be able to assign users to application roles. 
+Define and Manage User Roles3 The pontis System shall provide user interface for managing application roles. 
+Define and Manage User Roles4 The administrator shall be able to assign application permissions to each user roles. 
+
+Manage Application Users1 The administrator shall be able to add new users to the system. 
+Manage Application Users2 The user shall be able to modify his or her basic account profile. 
+Manage Application Users3 The administrator shall be able to create bridge-level access filters.
+Manage Application Users4 The administrator shall be able to assign bridge-level filters for each user. 
+Manage Application Users5 The administrator shall be able to remove users from the system or disable access as appropriate. 
+
+Perform User Authentication1 The pontis System shall be capable of validating user name and password during log-in process. 
+Perform User Authentication2 The pontis System shall be capable of authorizing access to Pontis functionalities depending on the user privileges during log-in process.
+Perform User Authentication3 The pontis System shall be capable of tracking login and logout activity.
+Perform User Authentication4 The pontis System shall be capable of running concurrent sessions for a user.
+Perform User Authentication5 The pontis System shall be capable of supporting Windows Authentication mechanism for database access.
+Perform User Authentication6 The pontis System shall be capable of  initiating a session without a login prompt that will provide support for an independent launch shell for Pontis and will be configured by the system administrator.
+Perform User Authentication7 The pontis System shall be capable of integrating authentication and permissions with BRIDGEWare.
+Perform User Authentication8 The pontis System shall be capable of operating with a single-sign-on authentication mechanism based on Active Directory Services or the LDAP standard.
+
+Configure Application Functionalities1 The administrator shall be able to configure the system units of measure in either English or metric mode which is a permanent setting for the application and database. 
+Configure Application Functionalities2 The pontis System shall be capable of storing the INI file configuration information in the database or workstation registry as appropriate, eliminating dependency on INI files for program operation. 
+Configure Application Functionalities3 When storing any configuration or session parameters, the pontis System shall accommodate XP directory security and file permissions.
+Configure Application Functionalities4 The administrator shall be able to edit the DATADICT table or its successors through a GUI window. 
+Configure Application Functionalities5 The administrator shall be able to add and configure pre-populated new structure templates.
+Configure Application Functionalities6 The administrator shall be able to configure field-level security.
+Configure Application Functionalities7 The administrator shall be able to configure some fields as mandatory for user input.
+Configure Application Functionalities8 The administrator shall be able to configure different levels of permission to control editing of checked-out bridges. 
+Configure Application Functionalities9 The pontis System shall adhere to a .NET logging standard.
+Configure Application Functionalities10 The pontis System shall adhere to a .NET exception handling standard.
+Configure Application Functionalities11 The administrator shall be able to configure the values in the dropdown lists in the system. 
+Configure Application Functionalities12 The administrator shall be able to create agency-specific elements, including element definitions, condition states, actions, models and other related information. 
+Configure Application Functionalities13 The administrator shall be able to configure definitions of element types,environments, materials, and categories. 
+Configure Application Functionalities14 The administrator shall be able to add custom structure lists. 
+Configure Application Functionalities15 The administrator shall be able to add custom project lists.
+Configure Application Functionalities16 The administrator shall be able to configure default values for various scenario parameters. 
+Configure Application Functionalities17 The administrator shall be able to configure customizable options that affect system operations. 
+Configure Application Functionalities18 The pontis System shall validate all configuration options to verify proper program operation, including explicit identification of any potentially conflicting program options. 
+Configure Application Functionalities19 The pontis System shall ensure a built-in diagnostic report support configuration option validation.
+
+Configure User-Interface Presentation1 The administrator shall be able to configure the labels of user interface items and screen displays. 
+Configure User-Interface Presentation2 The pontis System shall be capable of supporting internationalization using the standard Windows/.NET internationalization support. 
+Configure User-Interface Presentation3 The pontis System shall be capable of showing all screens, menus, user interface controls, prompts, error messages and information notices in native language, with some of these elements customizable. 
+
+Admin Functionalities1 The pontis System shall provide an interface to communicate with an external service or third-party software. A set of standard interfaces25 will be defined for this capability.
+Admin Functionalities2 The pontis System shall provide application administrators with a secured tool for overriding bridge/project check-out status. 
+Admin Functionalities3 The pontis System shall provide application administrators with a secured tool for clearing batch processing tables used by the system for deadlock/lockout resolution. 
+Admin Functionalities4 The pontis System shall provide a fixed set of predefined, secured, administration reports to document users, user roles, application privileges, user login sessions, checked-out bridges, and other key information necessary to manage application operation. 
+
+USABILITY REQUIREMENTS1 The pontis System shall be designed to be as straightforward and intuitive as possible, and familiar to existing users. 
+USABILITY REQUIREMENTS2 The pontis System shall look and feel consistent in the web and standalone operating environments.
+USABILITY REQUIREMENTS3 The user shall be comfortable operating.
+USABILITY REQUIREMENTS4 After two full days of training, the user shall be allow to use the software.
+USABILITY REQUIREMENTS5 After one full days of system administration training, the administration shall be allow to use the software.
+
+INSTALLATION and DEPLOYMENT The pontis System shall be able to coexist with earlier versions of Pontis on the same computer. 
+
+MAINTAINABILITY and PORTABILITY REQUIREMENTS The pontis System shall comply with AASHTO application development standards based on the published recommendations of the AASHTO Technical Applications and Architecture subcommittee. 

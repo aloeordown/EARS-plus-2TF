@@ -1,0 +1,56 @@
+Requirement for GAMMA-JWebStore :
+	Security Requirements1 The WebStore shall validate credit cards against fraud.
+	Security Requirements2 The WebStore shall encrypt all sensitive information via https.
+	Security Requirements3 The WebStore shall encrypt all customer data in database.
+	Security Requirements4 The WebStore shall auto detect IP DOS attacks and block IP automatically.
+	Security Requirements5 The WebStore shall detect consecutive failed login attempts.
+	Security Requirements6 The WebStore shall be protected by open source firewall called Firestarter.
+	
+	OE1 The WebStore shall operate with the following internet browswes, Microsoft Internet Explorer version six and seven, Net scape Communicator Version four and five.
+	OE2 The WebStore shall operate on an Intel based system with Slackware Linux two point six and Apache Web Server.
+	OE3 The WebStore shall use SQL based database to store inventory information.
+	OE4 The WebStore shall use USB interface and divers and provided by Yoggie Corporation.
+	
+	Customer AccountsID ACROSS account information.
+	Customer Accounts1 The WebStore shall allow customers create accounts to store their customer profiles.
+	Customer Accounts2 The WebStore shall allow customers configure contact information.
+	Customer Accounts3 The WebStore shall allow customers view their purchase history.
+	Customer Accounts4 The WebStore shall allow customers confirm orders.
+	Customer Accounts5 The WebStore shall allow customers register, log in and log out of their accounts.
+	Customer Accounts6 The WebStore shall store customers profile which also include payment information, such as the ability to store credit card information and address information.
+	
+	Inventory ManagementID INPUT inventory information.
+	Inventory Management1 The WebStore shall store products in multi-tiered categories.
+	Inventory Management2 The WebStore shall allow for administrators to update the categories, the products placed in categories, and the specific product details.
+	
+	Shopping CartID INPUT product information.
+	Shopping Cart1 The customers shall also be able to add products into the shopping cart.
+	Shopping Cart2 The WebStore shall clearly display the number of items in the cart, along with the total cost.
+	Shopping Cart3 The customers shall also be able to add to or remove products from  the shopping cart prior to checkout and order confirmation.
+	
+	SCOCID ACROSS order information.
+	
+	Order Confirmation1 After checkout, the customers shall be able to confirm the order.
+	Order Confirmation2 If  order is incorrect, the customers shall be able to revise and update their order.
+	Order Confirmation3 The customers shall  receive a confirmation email with the specific order details.
+	
+	Interface1 The customers shall be presented with an unambiguous interface to assist in browsing the categories and products.
+	Interface2 The customers shall be able to search for products matching their search criteria.
+	Interface3 The WebStore shall be compatible with all major web browsers such as Internet Explorer, Mozilla Navigator, Mozilla Firefox, Opera, and Safari.
+	Interface4 The WebStore shall implement an Application Interface to allow for various plug-ins to interact with the system.
+	Interface5 The WebStore shall well document plug-in API.
+	Interface6 The WebStore shall provided specifications to plug-in developers.
+	
+	Communications Interfaces1 When customers have ordered items, the WebStore shall send an e-mail confirmation to customers that the items they ordered will be delivered to the shipping address along with tracking number.
+	Communications Interfaces2 The WebStore shall send an e-mail to System Administrator regarding any technical queries from customers or sales people.
+	
+	UnfunctionalReq1 The WebStore shall be able to handle 1000 customers logged in concurrently at the same time.
+	UnfunctionalReq2 The WebStore shall be able to retrieve 200 products per second.
+	UnfunctionalReq3 The WebStore shall be able to add product to shopping cart within less than 2 ms.
+	UnfunctionalReq4 The WebStore shall be able to search for a specified product within less than 1 second.
+	UnfunctionalReq5 The WebStore shall be able to email customer and vendor within less than 1 second.
+	UnfunctionalReq6 The WebStore shall be able to validate credit card within less than 2 seconds.
+	UnfunctionalReq7 The WebStore shall be able to acquire shipping charges within less than 2 seconds.
+	UnfunctionalReq8 The WebStore shall be able to restore 1000 records per second.
+	
+	

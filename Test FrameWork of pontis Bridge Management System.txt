@@ -1,0 +1,1366 @@
+System testing Security Test Context of pontis Bridge Management System:
+Test Configuration:
+------------------------------------------------------------------------------------
+     Test Item      |  pontis Bridge Management System              
+------------------------------------------------------------------------------------
+ Test Component  | 	 pontis System, user, system, privileged users, agency, administrator, administration 
+
+Test Objective£º Verify the pontis Bridge Management System can work
+
+Data Pool£º
+------------------------------------------------------------------------------------
+	 Data Partition   | structure ID, project ID, program, action type, project status, review status, treatment, program year, project end date, project ID, project name, project status, structure ID, program, bridge data, project data, preservation model data, program simulation results, configuration data 
+------------------------------------------------------------------------------------
+
+Test set:
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |PURPOSE OF THE PRODUCTTC_PASS
+ Test Requirement |The pontis System shall provide licensing agencies with an up-to-date tool for bridge management, including data management, condition assessment, model development, needs analysis, reporting, and interaction with other agency systems.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |PURPOSE OF THE PRODUCTTC_FAIL
+ Test Requirement |The pontis System shall provide licensing agencies with an up-to-date tool for bridge management, including data management, condition assessment, model development, needs analysis, reporting, and interaction with other agency systems.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |PURPOSE OF THE PRODUCTTC_PASS
+ Test Requirement |The pontis System shall be the next generation of the Pontis product, currently deployed in more than 45 agencies in the U.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |PURPOSE OF THE PRODUCTTC_FAIL
+ Test Requirement |The pontis System shall be the next generation of the Pontis product, currently deployed in more than 45 agencies in the U.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |PURPOSE OF THE PRODUCTTC_PASS
+ Test Requirement |The pontis System shall support a range of new functionality, including import and export of data in eXstensible Markup Language based on TransXML schema being developed through National Cooperative Highway Research Program Project, XML Schemas for Exchange of Transportation Data.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |PURPOSE OF THE PRODUCTTC_FAIL
+ Test Requirement |The pontis System shall support a range of new functionality, including import and export of data in eXstensible Markup Language based on TransXML schema being developed through National Cooperative Highway Research Program Project, XML Schemas for Exchange of Transportation Data.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |PURPOSE OF THE PRODUCTTC_PASS
+ Test Requirement |The pontis System shall improved approaches to modeling bridge needs through incorporation of research results from NCHRP, Multiple-Objective Optimization for Bridge Management Systems.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |PURPOSE OF THE PRODUCTTC_FAIL
+ Test Requirement |The pontis System shall improved approaches to modeling bridge needs through incorporation of research results from NCHRP, Multiple-Objective Optimization for Bridge Management Systems.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |PURPOSE OF THE PRODUCTTC_PASS
+ Test Requirement |The pontis System shall improved user interfaces for bridge-level analysis and project planning.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |PURPOSE OF THE PRODUCTTC_FAIL
+ Test Requirement |The pontis System shall improved user interfaces for bridge-level analysis and project planning.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |PURPOSE OF THE PRODUCTTC_PASS
+ Test Requirement |The pontis System shall support for multiple asset types.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |PURPOSE OF THE PRODUCTTC_FAIL
+ Test Requirement |The pontis System shall support for multiple asset types.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |PURPOSE OF THE PRODUCTTC_PASS
+ Test Requirement |The pontis System shall provide seamless support to its licensees for potential changes in the National Bridge Inventory coding standards.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |PURPOSE OF THE PRODUCTTC_FAIL
+ Test Requirement |The pontis System shall provide seamless support to its licensees for potential changes in the National Bridge Inventory coding standards.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Specific goalTC_PASS
+ Test Requirement |The pontis System shall provide the AASHTO member agencies and licensees with a readily-accessible, robust repository for bridge information, technically correct capabilities to perform bridge management tasks of all types, a technologically up-to-date development foundation, streamlined, simpler application and deployment mechanisms, a flexible, customizable application which users can extend to solve agency, reservation of significant agency investments in BMS generally and Pontis specifically, including expenditures of time, money, training and other agency resource.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Specific goalTC_FAIL
+ Test Requirement |The pontis System shall provide the AASHTO member agencies and licensees with a readily-accessible, robust repository for bridge information, technically correct capabilities to perform bridge management tasks of all types, a technologically up-to-date development foundation, streamlined, simpler application and deployment mechanisms, a flexible, customizable application which users can extend to solve agency, reservation of significant agency investments in BMS generally and Pontis specifically, including expenditures of time, money, training and other agency resource.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Development Technology ConstraintsTC_PASS
+ Test Requirement |The pontis System shall be developed using Microsoft technologies.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Development Technology ConstraintsTC_FAIL
+ Test Requirement |The pontis System shall be developed using Microsoft technologies.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Development Technology ConstraintsTC_PASS
+ Test Requirement |The pontis System shall be a Microsoft NET application consisting of a combination of stand-alone, thin client, and back-end server applications.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Development Technology ConstraintsTC_FAIL
+ Test Requirement |The pontis System shall be a Microsoft NET application consisting of a combination of stand-alone, thin client, and back-end server applications.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Development Technology ConstraintsTC_PASS
+ Test Requirement |The pontis System shall maximize the use of third-party code libraries, whether fee-licensed or open-source, to minimize original development costs to the greatest extent possible.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Development Technology ConstraintsTC_FAIL
+ Test Requirement |The pontis System shall maximize the use of third-party code libraries, whether fee-licensed or open-source, to minimize original development costs to the greatest extent possible.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |General Solution ConstraintsTC_PASS
+ Test Requirement |The pontis System shall take full advantage of web display capabilities including, in particular, screen real estate management to minimize scrolling, paging and tabbing.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |General Solution ConstraintsTC_FAIL
+ Test Requirement |The pontis System shall take full advantage of web display capabilities including, in particular, screen real estate management to minimize scrolling, paging and tabbing.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |General Solution ConstraintsTC_PASS
+ Test Requirement |The pontis System shall support its existing relational databases of Sybase Adaptive Server Anywhere, Oracle, and Microsoft SQL Server as the database for its information repository.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |General Solution ConstraintsTC_FAIL
+ Test Requirement |The pontis System shall support its existing relational databases of Sybase Adaptive Server Anywhere, Oracle, and Microsoft SQL Server as the database for its information repository.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |General Solution ConstraintsTC_PASS
+ Test Requirement |The pontis System shall integrate its bridge information with a more general asset management database structure which may incorporate other types of assets such as sign structures, high-mast towers, walls, pavements, or buildings.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |General Solution ConstraintsTC_FAIL
+ Test Requirement |The pontis System shall integrate its bridge information with a more general asset management database structure which may incorporate other types of assets such as sign structures, high-mast towers, walls, pavements, or buildings.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |General Solution ConstraintsTC_PASS
+ Test Requirement |The pontis System shall be a GIS-aware application that must operate properly with an GIS of agency technology whether ESRI, Intergraph, Open GIS, or others.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |General Solution ConstraintsTC_FAIL
+ Test Requirement |The pontis System shall be a GIS-aware application that must operate properly with an GIS of agency technology whether ESRI, Intergraph, Open GIS, or others.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |General Solution ConstraintsTC_PASS
+ Test Requirement |The pontis System shall observe industry standard protocols in this regard and avoid vendor specific implementation approaches.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |General Solution ConstraintsTC_FAIL
+ Test Requirement |The pontis System shall observe industry standard protocols in this regard and avoid vendor specific implementation approaches.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |ASSUMPTIONSTC_PASS
+ Test Requirement |The pontis System shall not assume a uniform operating environment and must accommodate both disconnected and connected users.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |ASSUMPTIONSTC_FAIL
+ Test Requirement |The pontis System shall not assume a uniform operating environment and must accommodate both disconnected and connected users.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |ASSUMPTIONSTC_PASS
+ Test Requirement |The pontis System shall maintain consistency with the existing deployed ver4 application.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |ASSUMPTIONSTC_FAIL
+ Test Requirement |The pontis System shall maintain consistency with the existing deployed ver4 application.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |ASSUMPTIONSTC_PASS
+ Test Requirement |The pontis System shall incorporate its design with any Federal NBI changes that may arise during the design and development period.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |ASSUMPTIONSTC_FAIL
+ Test Requirement |The pontis System shall incorporate its design with any Federal NBI changes that may arise during the design and development period.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |ASSUMPTIONSTC_PASS
+ Test Requirement |The pontis System shall use technology that the member agencies of AASHTO can deploy.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |ASSUMPTIONSTC_FAIL
+ Test Requirement |The pontis System shall use technology that the member agencies of AASHTO can deploy.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |ASSUMPTIONSTC_PASS
+ Test Requirement |The pontis System shall be designed as a deployed/installed application in agencies.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |ASSUMPTIONSTC_FAIL
+ Test Requirement |The pontis System shall be designed as a deployed/installed application in agencies.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |ASSUMPTIONSTC_PASS
+ Test Requirement |The pontis System shall not be designed as a hosted application, although it may well operate perfectly acceptably in a hosted configuration, such as a Citrix environment.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |ASSUMPTIONSTC_FAIL
+ Test Requirement |The pontis System shall not be designed as a hosted application, although it may well operate perfectly acceptably in a hosted configuration, such as a Citrix environment.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |ASSUMPTIONSTC_PASS
+ Test Requirement |The pontis System shall be a licensed product, which AASHTO will maintain ownership over, and which will be deployed with license protection to certain licensees such as consultants, international agencies, and academic institutions.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |ASSUMPTIONSTC_FAIL
+ Test Requirement |The pontis System shall be a licensed product, which AASHTO will maintain ownership over, and which will be deployed with license protection to certain licensees such as consultants, international agencies, and academic institutions.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |ASSUMPTIONSTC_PASS
+ Test Requirement |The pontis System shall interact effectively and properly with the other BRIDGEWare products.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |ASSUMPTIONSTC_FAIL
+ Test Requirement |The pontis System shall interact effectively and properly with the other BRIDGEWare products.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |ASSUMPTIONSTC_PASS
+ Test Requirement |The pontis System shall provide two-way XML data exchange with TransXML schema once it is established.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |ASSUMPTIONSTC_FAIL
+ Test Requirement |The pontis System shall provide two-way XML data exchange with TransXML schema once it is established.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |ASSUMPTIONSTC_PASS
+ Test Requirement |The pontis System shall provide well-defined and documented access to selected product functionality and data for third-party developers.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |ASSUMPTIONSTC_FAIL
+ Test Requirement |The pontis System shall provide well-defined and documented access to selected product functionality and data for third-party developers.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |View Bridge DataTC_PASS
+ Test Requirement |The user shall be able to view the data stored in the Physical Inventory tables through the Pontis graphical user interface.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |View Bridge DataTC_FAIL
+ Test Requirement |The user shall be able to view the data stored in the Physical Inventory tables through the Pontis graphical user interface.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |View Bridge DataTC_PASS
+ Test Requirement |The user shall be able to switch between predefined structure lists.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |View Bridge DataTC_FAIL
+ Test Requirement |The user shall be able to switch between predefined structure lists.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |View Bridge DataTC_PASS
+ Test Requirement |The user shall be able to select structures by structure ID, district, county, administrative area, ownership, custodianship, functional class, NHS status, on/off system, inspector, bridge group, inspection due dates, and all or some environment and elements.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |View Bridge DataTC_FAIL
+ Test Requirement |The user shall be able to select structures by structure ID, district, county, administrative area, ownership, custodianship, functional class, NHS status, on/off system, inspector, bridge group, inspection due dates, and all or some environment and elements.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |View Bridge DataTC_PASS
+ Test Requirement |The pontis System shall restrict query depending on the user privilege.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |View Bridge DataTC_FAIL
+ Test Requirement |The pontis System shall restrict query depending on the user privilege.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |View Bridge DataTC_PASS
+ Test Requirement |The user shall be able to find structures based on the structure ID, structure name, feature intersected, facility carried, route number, LRS Inventory Route, KM/mile posts, structure types, design types and materials, and by searching the notes fields.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |View Bridge DataTC_FAIL
+ Test Requirement |The user shall be able to find structures based on the structure ID, structure name, feature intersected, facility carried, route number, LRS Inventory Route, KM/mile posts, structure types, design types and materials, and by searching the notes fields.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |View Bridge DataTC_PASS
+ Test Requirement |The user shall be able to enter a WHERE clause of the SQL query in the Find and the Filter window and run a query against the bridges in the database.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |View Bridge DataTC_FAIL
+ Test Requirement |The user shall be able to enter a WHERE clause of the SQL query in the Find and the Filter window and run a query against the bridges in the database.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |View Bridge DataTC_PASS
+ Test Requirement |The pontis System shall verify query.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |View Bridge DataTC_FAIL
+ Test Requirement |The pontis System shall verify query.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |View Bridge DataTC_PASS
+ Test Requirement |The pontis System shall report SQL errors to the user for correction.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |View Bridge DataTC_FAIL
+ Test Requirement |The pontis System shall report SQL errors to the user for correction.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |View Bridge DataTC_PASS
+ Test Requirement |The pontis System shall make capability is an application privilege.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |View Bridge DataTC_FAIL
+ Test Requirement |The pontis System shall make capability is an application privilege.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |View Bridge DataTC_PASS
+ Test Requirement |The pontis System shall automatically apply Bridge-level security of users.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |View Bridge DataTC_FAIL
+ Test Requirement |The pontis System shall automatically apply Bridge-level security of users.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |View Bridge DataTC_PASS
+ Test Requirement |The user shall be able to enter a WHERE clause of the SQL query in the Find and the Filter window and run a query against the bridges in the database.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |View Bridge DataTC_FAIL
+ Test Requirement |The user shall be able to enter a WHERE clause of the SQL query in the Find and the Filter window and run a query against the bridges in the database.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |View Bridge DataTC_PASS
+ Test Requirement |The user shall be able to select a structure by directly typing in the structureID in GUI, with the display scrolling to that structure.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |View Bridge DataTC_FAIL
+ Test Requirement |The user shall be able to select a structure by directly typing in the structureID in GUI, with the display scrolling to that structure.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |View Bridge DataTC_PASS
+ Test Requirement |The pontis System shall display the data in the appropriate unit of measurement as configured for the application.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |View Bridge DataTC_FAIL
+ Test Requirement |The pontis System shall display the data in the appropriate unit of measurement as configured for the application.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |View Bridge DataTC_PASS
+ Test Requirement |The pontis System shall make this be a permanent modal setting for the application.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |View Bridge DataTC_FAIL
+ Test Requirement |The pontis System shall make this be a permanent modal setting for the application.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |View Bridge DataTC_PASS
+ Test Requirement |The pontis System shall make this setting be configurable.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |View Bridge DataTC_FAIL
+ Test Requirement |The pontis System shall make this setting be configurable.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |View Bridge DataTC_PASS
+ Test Requirement |The pontis System shall allow user to select bridges on a supported map display.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |View Bridge DataTC_FAIL
+ Test Requirement |The pontis System shall allow user to select bridges on a supported map display.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |View Project DataTC_PASS
+ Test Requirement |The user shall be able to view the data stored in the Project Planning tables through the GUI.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |View Project DataTC_FAIL
+ Test Requirement |The user shall be able to view the data stored in the Project Planning tables through the GUI.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |View Project DataTC_PASS
+ Test Requirement |The user shall be able to switch between predefined project lists.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |View Project DataTC_FAIL
+ Test Requirement |The user shall be able to switch between predefined project lists.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |View Project DataTC_PASS
+ Test Requirement |The user shall be able to filter and select projects and work candidates.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |View Project DataTC_FAIL
+ Test Requirement |The user shall be able to filter and select projects and work candidates.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |View Project DataTC_PASS
+ Test Requirement |The user shall be able to find projects.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |View Project DataTC_FAIL
+ Test Requirement |The user shall be able to find projects.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |View Project DataTC_PASS
+ Test Requirement |The user shall be able to enter a WHERE clause of the SQL query in the Find and the Filter window and run a query against the projects in the database.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |View Project DataTC_FAIL
+ Test Requirement |The user shall be able to enter a WHERE clause of the SQL query in the Find and the Filter window and run a query against the projects in the database.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |View Project DataTC_PASS
+ Test Requirement |The user shall be able to select a project by directly typing in the project ID in the GUI, with the display scrolling to that structure.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |View Project DataTC_FAIL
+ Test Requirement |The user shall be able to select a project by directly typing in the project ID in the GUI, with the display scrolling to that structure.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |View Project DataTC_PASS
+ Test Requirement |The pontis System shall allow user to select projects or work on a supported map display.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |View Project DataTC_FAIL
+ Test Requirement |The pontis System shall allow user to select projects or work on a supported map display.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Generate Predefined ReportsTC_PASS
+ Test Requirement |The user shall be able to select and execute predefined reports to view data.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Generate Predefined ReportsTC_FAIL
+ Test Requirement |The user shall be able to select and execute predefined reports to view data.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Generate Predefined ReportsTC_PASS
+ Test Requirement |The pontis System shall use existing Pontis reports to form the basis for the predefined reports to be provided in Pontis5.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Generate Predefined ReportsTC_FAIL
+ Test Requirement |The pontis System shall use existing Pontis reports to form the basis for the predefined reports to be provided in Pontis5.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Generate Predefined ReportsTC_PASS
+ Test Requirement |The user shall be able to create reports in a NET compliant report generator other than InfoMaker and review these reports from in the Pontis GUI.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Generate Predefined ReportsTC_FAIL
+ Test Requirement |The user shall be able to create reports in a NET compliant report generator other than InfoMaker and review these reports from in the Pontis GUI.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Generate Predefined ReportsTC_PASS
+ Test Requirement |The pontis System shall provide the ability to integrate current selections with a NET compliant report generator other than InfoMaker.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Generate Predefined ReportsTC_FAIL
+ Test Requirement |The pontis System shall provide the ability to integrate current selections with a NET compliant report generator other than InfoMaker.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Generate Predefined ReportsTC_PASS
+ Test Requirement |The pontis System shall provide the ability to incorporate PDF files into standard Pontis reports.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Generate Predefined ReportsTC_FAIL
+ Test Requirement |The pontis System shall provide the ability to incorporate PDF files into standard Pontis reports.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Generate Predefined ReportsTC_PASS
+ Test Requirement |The system shall provide the ability to save reports in PDF, HTML, and XML formats.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Generate Predefined ReportsTC_FAIL
+ Test Requirement |The system shall provide the ability to save reports in PDF, HTML, and XML formats.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Select and View Pontis Information Using MapsTC_PASS
+ Test Requirement |The pontis System shall provide the ability to create any report that is bridge or project based by selecting the relevant driver records from a map display.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Select and View Pontis Information Using MapsTC_FAIL
+ Test Requirement |The pontis System shall provide the ability to create any report that is bridge or project based by selecting the relevant driver records from a map display.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Select and View Pontis Information Using MapsTC_PASS
+ Test Requirement |The pontis System shall provide the ability to create or refresh a map display from a set of bridge or project records selected in the Pontis desktop.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Select and View Pontis Information Using MapsTC_FAIL
+ Test Requirement |The pontis System shall provide the ability to create or refresh a map display from a set of bridge or project records selected in the Pontis desktop.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Create/Edit StructureTC_PASS
+ Test Requirement |The user shall be able to create a new structure with a user-defined bridge key.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Create/Edit StructureTC_FAIL
+ Test Requirement |The user shall be able to create a new structure with a user-defined bridge key.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Create/Edit StructureTC_PASS
+ Test Requirement |The user shall be able to create a new structure by copying all data of an existing structure.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Create/Edit StructureTC_FAIL
+ Test Requirement |The user shall be able to create a new structure by copying all data of an existing structure.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Create/Edit StructureTC_PASS
+ Test Requirement |The user shall be able to create new structures by importing from asupported file type.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Create/Edit StructureTC_FAIL
+ Test Requirement |The user shall be able to create new structures by importing from asupported file type.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Create/Edit StructureTC_PASS
+ Test Requirement |The pontis System shall determine supported file types, but will include at least PDI, NBI, and XML.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Create/Edit StructureTC_FAIL
+ Test Requirement |The pontis System shall determine supported file types, but will include at least PDI, NBI, and XML.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Create/Edit StructureTC_PASS
+ Test Requirement |The user shall be able to edit and remove existing structures.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Create/Edit StructureTC_FAIL
+ Test Requirement |The user shall be able to edit and remove existing structures.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Create/Edit StructureTC_PASS
+ Test Requirement |The pontis System shall provide the ability to mark a bridge with any of several status values.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Create/Edit StructureTC_FAIL
+ Test Requirement |The pontis System shall provide the ability to mark a bridge with any of several status values.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Create/Edit StructureTC_PASS
+ Test Requirement |The pontis System shall automatically filter displays to recognize the status value.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Create/Edit StructureTC_FAIL
+ Test Requirement |The pontis System shall automatically filter displays to recognize the status value.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Create/Edit StructureTC_PASS
+ Test Requirement |The pontis System shall support storage and management of information for bridges in a design or preconstruction state.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Create/Edit StructureTC_FAIL
+ Test Requirement |The pontis System shall support storage and management of information for bridges in a design or preconstruction state.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Create/Edit StructureTC_PASS
+ Test Requirement |The user shall be able to renumber the bridge key identifier and have the change made globally.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Create/Edit StructureTC_FAIL
+ Test Requirement |The user shall be able to renumber the bridge key identifier and have the change made globally.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Create/Edit StructureTC_PASS
+ Test Requirement |The pontis System shall restrict this function depending on the user privilege.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Create/Edit StructureTC_FAIL
+ Test Requirement |The pontis System shall restrict this function depending on the user privilege.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Create/Edit InspectionTC_PASS
+ Test Requirement |The user shall be able to create a new inspection.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Create/Edit InspectionTC_FAIL
+ Test Requirement |The user shall be able to create a new inspection.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Create/Edit InspectionTC_PASS
+ Test Requirement |The user shall be able to create a new inspection by copying a previous inspection.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Create/Edit InspectionTC_FAIL
+ Test Requirement |The user shall be able to create a new inspection by copying a previous inspection.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Create/Edit InspectionTC_PASS
+ Test Requirement |The user shall be able to identify and select any previous inspection as the source for the copy action.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Create/Edit InspectionTC_FAIL
+ Test Requirement |The user shall be able to identify and select any previous inspection as the source for the copy action.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Create/Edit InspectionTC_PASS
+ Test Requirement |The pontis System shall make selection by combination of date,inspection type, inspector, or inspection control group.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Create/Edit InspectionTC_FAIL
+ Test Requirement |The pontis System shall make selection by combination of date,inspection type, inspector, or inspection control group.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Create/Edit InspectionTC_PASS
+ Test Requirement |The pontis System shall have a short-form interface for inspection data entry with specifics of design and functionality to be determined as part of the technical design.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Create/Edit InspectionTC_FAIL
+ Test Requirement |The pontis System shall have a short-form interface for inspection data entry with specifics of design and functionality to be determined as part of the technical design.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Create/Edit InspectionTC_PASS
+ Test Requirement |The user shall be able to create new inspections by importing an PDI file.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Create/Edit InspectionTC_FAIL
+ Test Requirement |The user shall be able to create new inspections by importing an PDI file.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Create/Edit InspectionTC_PASS
+ Test Requirement |The user shall be able to add new elements to the structure.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Create/Edit InspectionTC_FAIL
+ Test Requirement |The user shall be able to add new elements to the structure.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Create/Edit InspectionTC_PASS
+ Test Requirement |The user shall be able to edit all the NBI data.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Create/Edit InspectionTC_FAIL
+ Test Requirement |The user shall be able to edit all the NBI data.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Create/Edit InspectionTC_PASS
+ Test Requirement |The pontis System shall prohibit changes to calculated results such as Sufficiency Rating or NBI Appraisal Ratings except for secured, privileged users.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Create/Edit InspectionTC_FAIL
+ Test Requirement |The pontis System shall prohibit changes to calculated results such as Sufficiency Rating or NBI Appraisal Ratings except for secured, privileged users.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Create/Edit InspectionTC_PASS
+ Test Requirement |The user shall be able to edit element inspection data.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Create/Edit InspectionTC_FAIL
+ Test Requirement |The user shall be able to edit element inspection data.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Create/Edit InspectionTC_PASS
+ Test Requirement |The user shall be able to edit the bridge inventory items excluding the dependent/derived values.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Create/Edit InspectionTC_FAIL
+ Test Requirement |The user shall be able to edit the bridge inventory items excluding the dependent/derived values.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Create/Edit InspectionTC_PASS
+ Test Requirement |The user shall be able to edit inspection and structure notes.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Create/Edit InspectionTC_FAIL
+ Test Requirement |The user shall be able to edit inspection and structure notes.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Create/Edit InspectionTC_PASS
+ Test Requirement |The pontis System shall be capable of storing notes in plain text and XML.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Create/Edit InspectionTC_FAIL
+ Test Requirement |The pontis System shall be capable of storing notes in plain text and XML.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Create/Edit InspectionTC_PASS
+ Test Requirement |The pontis System shall maximize the notes field size.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Create/Edit InspectionTC_FAIL
+ Test Requirement |The pontis System shall maximize the notes field size.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Create/Edit InspectionTC_PASS
+ Test Requirement |The user shall be capable of setting the size of the notes field.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Create/Edit InspectionTC_FAIL
+ Test Requirement |The user shall be capable of setting the size of the notes field.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Create/Edit InspectionTC_PASS
+ Test Requirement |The user shall be able to create and edit work recommendations.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Create/Edit InspectionTC_FAIL
+ Test Requirement |The user shall be able to create and edit work recommendations.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Create/Edit InspectionTC_PASS
+ Test Requirement |The pontis System shall be capable of estimating quantity for bridge type work recommendations.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Create/Edit InspectionTC_FAIL
+ Test Requirement |The pontis System shall be capable of estimating quantity for bridge type work recommendations.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Create/Edit InspectionTC_PASS
+ Test Requirement |The user shall be able to enter and update inspection planning information.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Create/Edit InspectionTC_FAIL
+ Test Requirement |The user shall be able to enter and update inspection planning information.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Create/Edit InspectionTC_PASS
+ Test Requirement |The user shall be able to link and manage multimedia files.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Create/Edit InspectionTC_FAIL
+ Test Requirement |The user shall be able to link and manage multimedia files.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Create/Edit InspectionTC_PASS
+ Test Requirement |The pontis System shall provide an inspection scheduling tool.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Create/Edit InspectionTC_FAIL
+ Test Requirement |The pontis System shall provide an inspection scheduling tool.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Create/Edit InspectionTC_PASS
+ Test Requirement |The pontis System shall provide the capability to lock down an inspection record once signed and sealed to prevent deletion or modification.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Create/Edit InspectionTC_FAIL
+ Test Requirement |The pontis System shall provide the capability to lock down an inspection record once signed and sealed to prevent deletion or modification.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Create/Edit InspectionTC_PASS
+ Test Requirement |The privileged users shall be able to delete an existing inspection unless it is locked down.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Create/Edit InspectionTC_FAIL
+ Test Requirement |The privileged users shall be able to delete an existing inspection unless it is locked down.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Create/Edit InspectionTC_PASS
+ Test Requirement |The user shall be able to sort the element data by unit number, environment,and quantity.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Create/Edit InspectionTC_FAIL
+ Test Requirement |The user shall be able to sort the element data by unit number, environment,and quantity.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Create/Edit InspectionTC_PASS
+ Test Requirement |The user shall be able to view all data from any two inspections, for a single bridge, in a tiled14 presentation for easy comparison.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Create/Edit InspectionTC_FAIL
+ Test Requirement |The user shall be able to view all data from any two inspections, for a single bridge, in a tiled14 presentation for easy comparison.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Create/Edit InspectionTC_PASS
+ Test Requirement |The pontis System shall clearly highlight the difference between two inspections in the presentation view/report.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Create/Edit InspectionTC_FAIL
+ Test Requirement |The pontis System shall clearly highlight the difference between two inspections in the presentation view/report.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Create/Edit InspectionTC_PASS
+ Test Requirement |The pontis System shall provide a configurable tracking mechanism to ensure that a set of screens and data fields have been reviewed and approved during the course of an inspection.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Create/Edit InspectionTC_FAIL
+ Test Requirement |The pontis System shall provide a configurable tracking mechanism to ensure that a set of screens and data fields have been reviewed and approved during the course of an inspection.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Calculate Dependent/Derived Inspection ResultsTC_PASS
+ Test Requirement |The pontis System shall be capable of calculating NBI condition ratings using the FHWA NBI Translator.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Calculate Dependent/Derived Inspection ResultsTC_FAIL
+ Test Requirement |The pontis System shall be capable of calculating NBI condition ratings using the FHWA NBI Translator.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Calculate Dependent/Derived Inspection ResultsTC_PASS
+ Test Requirement |The pontis System shall be capable of calculating and storing bridge Sufficiency Rating.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Calculate Dependent/Derived Inspection ResultsTC_FAIL
+ Test Requirement |The pontis System shall be capable of calculating and storing bridge Sufficiency Rating.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Calculate Dependent/Derived Inspection ResultsTC_PASS
+ Test Requirement |The pontis System shall be capable of calculating appraisal ratings.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Calculate Dependent/Derived Inspection ResultsTC_FAIL
+ Test Requirement |The pontis System shall be capable of calculating appraisal ratings.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Calculate Dependent/Derived Inspection ResultsTC_PASS
+ Test Requirement |The pontis System shall be capable of calculating Structurally Deficient/Functionally Obsolete SD/FO status.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Calculate Dependent/Derived Inspection ResultsTC_FAIL
+ Test Requirement |The pontis System shall be capable of calculating Structurally Deficient/Functionally Obsolete SD/FO status.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Calculate Dependent/Derived Inspection ResultsTC_PASS
+ Test Requirement |The pontis System shall make the ability of users to update the calculated ratings and status in the database to be a controlled privilege.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Calculate Dependent/Derived Inspection ResultsTC_FAIL
+ Test Requirement |The pontis System shall make the ability of users to update the calculated ratings and status in the database to be a controlled privilege.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Calculate Dependent/Derived Inspection ResultsTC_PASS
+ Test Requirement |The agency shall therefore be able to enforce strict use of calculated translator results for calculating NBI condition ratings.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Calculate Dependent/Derived Inspection ResultsTC_FAIL
+ Test Requirement |The agency shall therefore be able to enforce strict use of calculated translator results for calculating NBI condition ratings.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Calculate Dependent/Derived Inspection ResultsTC_PASS
+ Test Requirement |The administrator shall be able to configure the recalculation behavior of the derived data.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Calculate Dependent/Derived Inspection ResultsTC_FAIL
+ Test Requirement |The administrator shall be able to configure the recalculation behavior of the derived data.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Calculate Dependent/Derived Inspection ResultsTC_PASS
+ Test Requirement |The administrator shall configure behavior to do nothing.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Calculate Dependent/Derived Inspection ResultsTC_FAIL
+ Test Requirement |The administrator shall configure behavior to do nothing.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Calculate Dependent/Derived Inspection ResultsTC_PASS
+ Test Requirement |The administrator shall configure behavior to alert user that recalculation is required and give option to recalculate before update/save.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Calculate Dependent/Derived Inspection ResultsTC_FAIL
+ Test Requirement |The administrator shall configure behavior to alert user that recalculation is required and give option to recalculate before update/save.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Calculate Dependent/Derived Inspection ResultsTC_PASS
+ Test Requirement |The pontis System shall eliminate any and all dependencies on workstation control/parameter files for program operation.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Calculate Dependent/Derived Inspection ResultsTC_FAIL
+ Test Requirement |The pontis System shall eliminate any and all dependencies on workstation control/parameter files for program operation.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Develop Preservation PolicyTC_PASS
+ Test Requirement |The pontis System shall be capable of creating cost and deterioration elicitation records for Pontis users.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Develop Preservation PolicyTC_FAIL
+ Test Requirement |The pontis System shall be capable of creating cost and deterioration elicitation records for Pontis users.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Develop Preservation PolicyTC_PASS
+ Test Requirement |The pontis System shall be capable of updating the transition probabilities for preservation actions based on expert elicitations.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Develop Preservation PolicyTC_FAIL
+ Test Requirement |The pontis System shall be capable of updating the transition probabilities for preservation actions based on expert elicitations.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Develop Preservation PolicyTC_PASS
+ Test Requirement |The pontis System shall be capable of updating preservation action costs based on expert elicitations.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Develop Preservation PolicyTC_FAIL
+ Test Requirement |The pontis System shall be capable of updating preservation action costs based on expert elicitations.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Develop Preservation PolicyTC_PASS
+ Test Requirement |The pontis System shall be capable of updating transition probabilities for do nothing actions based on historical inspection data.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Develop Preservation PolicyTC_FAIL
+ Test Requirement |The pontis System shall be capable of updating transition probabilities for do nothing actions based on historical inspection data.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Develop Preservation PolicyTC_PASS
+ Test Requirement |The user shall be able to edit the cost and deterioration models through the GUI and immediately see the impact on model recommendations.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Develop Preservation PolicyTC_FAIL
+ Test Requirement |The user shall be able to edit the cost and deterioration models through the GUI and immediately see the impact on model recommendations.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Develop Preservation PolicyTC_PASS
+ Test Requirement |The pontis System shall be capable of using the transition probabilities and preservation action costs to develop an optimal preservation policy as detailed in the Pontis Technical Manual.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Develop Preservation PolicyTC_FAIL
+ Test Requirement |The pontis System shall be capable of using the transition probabilities and preservation action costs to develop an optimal preservation policy as detailed in the Pontis Technical Manual.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Develop Preservation PolicyTC_PASS
+ Test Requirement |The pontis System shall be capable of restoring the previous action costs, transition probabilities, and preservation policy.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Develop Preservation PolicyTC_FAIL
+ Test Requirement |The pontis System shall be capable of restoring the previous action costs, transition probabilities, and preservation policy.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Develop Preservation PolicyTC_PASS
+ Test Requirement |The pontis System shall be capable of supporting multiple cost and deterioration models.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Develop Preservation PolicyTC_FAIL
+ Test Requirement |The pontis System shall be capable of supporting multiple cost and deterioration models.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Develop Preservation PolicyTC_PASS
+ Test Requirement |The pontis System shall be capable of incorporating Health Index targets in a preservation short-term model.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Develop Preservation PolicyTC_FAIL
+ Test Requirement |The pontis System shall be capable of incorporating Health Index targets in a preservation short-term model.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Develop Preservation PolicyTC_PASS
+ Test Requirement |The pontis System shall streamline the model generation process.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Develop Preservation PolicyTC_FAIL
+ Test Requirement |The pontis System shall streamline the model generation process.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Perform Health Index TargetingTC_PASS
+ Test Requirement |The pontis System shall be capable of determining the long-term cost of achieving an average health index target for one or more structures, broken down by elements, element categories, for the entire structure.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Perform Health Index TargetingTC_FAIL
+ Test Requirement |The pontis System shall be capable of determining the long-term cost of achieving an average health index target for one or more structures, broken down by elements, element categories, for the entire structure.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Provide Preservation Model DashboardTC_PASS
+ Test Requirement |The pontis System shall provide a preservation model dashboard integrating the capabilities described above.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Provide Preservation Model DashboardTC_FAIL
+ Test Requirement |The pontis System shall provide a preservation model dashboard integrating the capabilities described above.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Configure Simulation ParametersTC_PASS
+ Test Requirement |The user shall be able to specify the characteristics of the simulation, including the simulation timeframe, various thresholds for the simulation, the project types included in the simulation, the needs addressed, and the annual budget for the simulation.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Configure Simulation ParametersTC_FAIL
+ Test Requirement |The user shall be able to specify the characteristics of the simulation, including the simulation timeframe, various thresholds for the simulation, the project types included in the simulation, the needs addressed, and the annual budget for the simulation.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Configure Simulation ParametersTC_PASS
+ Test Requirement |The user shall be able to update the unit costs and the policy standards governing the improvement model.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Configure Simulation ParametersTC_FAIL
+ Test Requirement |The user shall be able to update the unit costs and the policy standards governing the improvement model.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Configure Simulation ParametersTC_PASS
+ Test Requirement |The user shall be able to modify the technical parameters governing the simulation, including the parameters of the improvement model and the simulation rules.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Configure Simulation ParametersTC_FAIL
+ Test Requirement |The user shall be able to modify the technical parameters governing the simulation, including the parameters of the improvement model and the simulation rules.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Configure Simulation ParametersTC_PASS
+ Test Requirement |The user shall be able to select the structural elements to be included in the simulation.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Configure Simulation ParametersTC_FAIL
+ Test Requirement |The user shall be able to select the structural elements to be included in the simulation.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Configure Simulation ParametersTC_PASS
+ Test Requirement |The user shall be able to dynamically determine bridge subsets as part of the scenario settings.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Configure Simulation ParametersTC_FAIL
+ Test Requirement |The user shall be able to dynamically determine bridge subsets as part of the scenario settings.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Perform Program SimulationTC_PASS
+ Test Requirement |The pontis System shall be capable of running a program simulation for a selected set of structures and storing the simulation results in the Pontis database.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Perform Program SimulationTC_FAIL
+ Test Requirement |The pontis System shall be capable of running a program simulation for a selected set of structures and storing the simulation results in the Pontis database.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Perform Bridge AnalysisTC_PASS
+ Test Requirement |The user shall be able to choose from Pontis-generated work recommendations, inspector work candidates, and user-defined work items to include in the bridge simulation for a structure.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Perform Bridge AnalysisTC_FAIL
+ Test Requirement |The user shall be able to choose from Pontis-generated work recommendations, inspector work candidates, and user-defined work items to include in the bridge simulation for a structure.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Perform Bridge AnalysisTC_PASS
+ Test Requirement |The pontis System shall be capable of running bridge analysis for a single structure and storing the simulation results in the Pontis database.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Perform Bridge AnalysisTC_FAIL
+ Test Requirement |The pontis System shall be capable of running bridge analysis for a single structure and storing the simulation results in the Pontis database.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Perform Bridge AnalysisTC_PASS
+ Test Requirement |The pontis System shall provide a Bridge Analysis Dashboard that will allow the user to choose work items for a structure and the timing of the work, view the impact of the work on the condition of the structure, assign the work candidates to a project, and perform life-cycle cost analysis for the structure.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Perform Bridge AnalysisTC_FAIL
+ Test Requirement |The pontis System shall provide a Bridge Analysis Dashboard that will allow the user to choose work items for a structure and the timing of the work, view the impact of the work on the condition of the structure, assign the work candidates to a project, and perform life-cycle cost analysis for the structure.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Create/Edit ProgramsTC_PASS
+ Test Requirement |The user shall be able to create new programs by manually entering program information.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Create/Edit ProgramsTC_FAIL
+ Test Requirement |The user shall be able to create new programs by manually entering program information.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Create/Edit ProgramsTC_PASS
+ Test Requirement |The user shall be able to edit or delete existing programs.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Create/Edit ProgramsTC_FAIL
+ Test Requirement |The user shall be able to edit or delete existing programs.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Perform Bridge AnalysisTC_PASS
+ Test Requirement |The user shall be able to create new projects by manually entering the project information.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Perform Bridge AnalysisTC_FAIL
+ Test Requirement |The user shall be able to create new projects by manually entering the project information.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Perform Bridge AnalysisTC_PASS
+ Test Requirement |The user shall be able to edit or delete existing projects.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Perform Bridge AnalysisTC_FAIL
+ Test Requirement |The user shall be able to edit or delete existing projects.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Perform Bridge AnalysisTC_PASS
+ Test Requirement |The user shall be able assign Pontis-generated work recommendations, inspector work candidates, and user-specified work items to a project, or remove work items from a project.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Perform Bridge AnalysisTC_FAIL
+ Test Requirement |The user shall be able assign Pontis-generated work recommendations, inspector work candidates, and user-specified work items to a project, or remove work items from a project.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Perform Bridge AnalysisTC_PASS
+ Test Requirement |The user shall be able to split a project into multiple projects and combine multiple projects into a master project.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Perform Bridge AnalysisTC_FAIL
+ Test Requirement |The user shall be able to split a project into multiple projects and combine multiple projects into a master project.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Perform Bridge AnalysisTC_PASS
+ Test Requirement |The user shall be able to edit the characteristics of multiple projects simultaneously batch update.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Perform Bridge AnalysisTC_FAIL
+ Test Requirement |The user shall be able to edit the characteristics of multiple projects simultaneously batch update.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Perform Bridge AnalysisTC_PASS
+ Test Requirement |The user shall be able to edit the data stored in the Project Planning tables through the GUI.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Perform Bridge AnalysisTC_FAIL
+ Test Requirement |The user shall be able to edit the data stored in the Project Planning tables through the GUI.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Perform Bridge AnalysisTC_PASS
+ Test Requirement |The pontis System shall be capable of tracking and linking funding levels and project budgets.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Perform Bridge AnalysisTC_FAIL
+ Test Requirement |The pontis System shall be capable of tracking and linking funding levels and project budgets.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Perform Bridge AnalysisTC_PASS
+ Test Requirement |The pontis System shall be capable of grouping work candidates by different action types- bridge-level, element-level, and flexible-level actions.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Perform Bridge AnalysisTC_FAIL
+ Test Requirement |The pontis System shall be capable of grouping work candidates by different action types- bridge-level, element-level, and flexible-level actions.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Perform Data ValidationTC_PASS
+ Test Requirement |The pontis System shall be capable of performing single-field and cross-field validation on NBI data items in batch mode.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Perform Data ValidationTC_FAIL
+ Test Requirement |The pontis System shall be capable of performing single-field and cross-field validation on NBI data items in batch mode.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Perform Data ValidationTC_PASS
+ Test Requirement |The pontis System shall be capable of performing configurable input range checks using the DATADICT table upon entering data.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Perform Data ValidationTC_FAIL
+ Test Requirement |The pontis System shall be capable of performing configurable input range checks using the DATADICT table upon entering data.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Perform Data ValidationTC_PASS
+ Test Requirement |The pontis System shall be capable of performing data validation tasks including cross field validation upon saving data.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Perform Data ValidationTC_FAIL
+ Test Requirement |The pontis System shall be capable of performing data validation tasks including cross field validation upon saving data.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Perform Data ValidationTC_PASS
+ Test Requirement |The pontis System shall allow users to configure data validation rules which is a privileged operation.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Perform Data ValidationTC_FAIL
+ Test Requirement |The pontis System shall allow users to configure data validation rules which is a privileged operation.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Perform Data ValidationTC_PASS
+ Test Requirement |The pontis System shall provide data review wizard for comparing incoming bridge data with existing data.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Perform Data ValidationTC_FAIL
+ Test Requirement |The pontis System shall provide data review wizard for comparing incoming bridge data with existing data.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Perform Data ValidationTC_PASS
+ Test Requirement |The pontis System shall highlight errors for easy review.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Perform Data ValidationTC_FAIL
+ Test Requirement |The pontis System shall highlight errors for easy review.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Perform Data ValidationTC_PASS
+ Test Requirement |The pontis System shall guarantee atomic database transactions to ensure maximum data integrity, using standard.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Perform Data ValidationTC_FAIL
+ Test Requirement |The pontis System shall guarantee atomic database transactions to ensure maximum data integrity, using standard.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Perform Data ValidationTC_PASS
+ Test Requirement |The pontis System shall maximize multi-user concurrency and conflict resolution in the application using standard.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Perform Data ValidationTC_FAIL
+ Test Requirement |The pontis System shall maximize multi-user concurrency and conflict resolution in the application using standard.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Exchange DataTC_PASS
+ Test Requirement |The user shall be able to exchange data in NBI format.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Exchange DataTC_FAIL
+ Test Requirement |The user shall be able to exchange data in NBI format.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Exchange DataTC_PASS
+ Test Requirement |The user shall be able to exchange data in PDI format as specified in the Pontis Technical Manual.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Exchange DataTC_FAIL
+ Test Requirement |The user shall be able to exchange data in PDI format as specified in the Pontis Technical Manual.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Exchange DataTC_PASS
+ Test Requirement |The user shall be able to exchange data in XML format.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Exchange DataTC_FAIL
+ Test Requirement |The user shall be able to exchange data in XML format.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Exchange DataTC_PASS
+ Test Requirement |The pontis System shall utilize emerging TransXML schema specification17 once established and accepted.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Exchange DataTC_FAIL
+ Test Requirement |The pontis System shall utilize emerging TransXML schema specification17 once established and accepted.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Exchange DataTC_PASS
+ Test Requirement |The user shall be able to exchange bridge inspection data in PDI format.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Exchange DataTC_FAIL
+ Test Requirement |The user shall be able to exchange bridge inspection data in PDI format.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Exchange DataTC_PASS
+ Test Requirement |The user shall be able to designate a recipient for checked-out bridges.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Exchange DataTC_FAIL
+ Test Requirement |The user shall be able to designate a recipient for checked-out bridges.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Exchange DataTC_PASS
+ Test Requirement |The pontis System shall store all export/import control information in the database for central administration, eliminating any dependency on workstation control files to manage export/import behavior.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Exchange DataTC_FAIL
+ Test Requirement |The pontis System shall store all export/import control information in the database for central administration, eliminating any dependency on workstation control files to manage export/import behavior.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Exchange DataTC_PASS
+ Test Requirement |The pontis System shall strictly separate transient or volatile batch operation control records from more static control record.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Exchange DataTC_FAIL
+ Test Requirement |The pontis System shall strictly separate transient or volatile batch operation control records from more static control record.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Perform Data ArchivingTC_PASS
+ Test Requirement |The user shall be able to archive data for existing and removed structures.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Perform Data ArchivingTC_FAIL
+ Test Requirement |The user shall be able to archive data for existing and removed structures.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Perform Data ArchivingTC_PASS
+ Test Requirement |The pontis System shall provide a selection/filter capability to restrict operations on active, inactive, or all structures during any data archiving activity.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Perform Data ArchivingTC_FAIL
+ Test Requirement |The pontis System shall provide a selection/filter capability to restrict operations on active, inactive, or all structures during any data archiving activity.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Perform Data ArchivingTC_PASS
+ Test Requirement |The pontis System shall provide reporting mechanism for viewing archived data.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Perform Data ArchivingTC_FAIL
+ Test Requirement |The pontis System shall provide reporting mechanism for viewing archived data.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Perform Data ArchivingTC_PASS
+ Test Requirement |The user shall be able to restore the archived data.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Perform Data ArchivingTC_FAIL
+ Test Requirement |The user shall be able to restore the archived data.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |BRIDGEWare Integration SupportTC_PASS
+ Test Requirement |The pontis System shall continue to provide existing application integration capabilities with BRIDGEWare products.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |BRIDGEWare Integration SupportTC_FAIL
+ Test Requirement |The pontis System shall continue to provide existing application integration capabilities with BRIDGEWare products.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |BRIDGEWare Integration SupportTC_PASS
+ Test Requirement |The pontis System shall support concurrent storage in the database of planned,active, and inactive structures, and potentially other status/lifecycle phase indicators, to facilitate BRIDGEWare integration.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |BRIDGEWare Integration SupportTC_FAIL
+ Test Requirement |The pontis System shall support concurrent storage in the database of planned,active, and inactive structures, and potentially other status/lifecycle phase indicators, to facilitate BRIDGEWare integration.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Define and Manage User RolesTC_PASS
+ Test Requirement |The administrator shall be able to create and edit new application roles.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Define and Manage User RolesTC_FAIL
+ Test Requirement |The administrator shall be able to create and edit new application roles.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Define and Manage User RolesTC_PASS
+ Test Requirement |The administrator shall be able to assign users to application roles.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Define and Manage User RolesTC_FAIL
+ Test Requirement |The administrator shall be able to assign users to application roles.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Define and Manage User RolesTC_PASS
+ Test Requirement |The pontis System shall provide user interface for managing application roles.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Define and Manage User RolesTC_FAIL
+ Test Requirement |The pontis System shall provide user interface for managing application roles.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Define and Manage User RolesTC_PASS
+ Test Requirement |The administrator shall be able to assign application permissions to each user roles.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Define and Manage User RolesTC_FAIL
+ Test Requirement |The administrator shall be able to assign application permissions to each user roles.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Manage Application UsersTC_PASS
+ Test Requirement |The administrator shall be able to add new users to the system.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Manage Application UsersTC_FAIL
+ Test Requirement |The administrator shall be able to add new users to the system.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Manage Application UsersTC_PASS
+ Test Requirement |The user shall be able to modify his or her basic account profile.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Manage Application UsersTC_FAIL
+ Test Requirement |The user shall be able to modify his or her basic account profile.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Manage Application UsersTC_PASS
+ Test Requirement |The administrator shall be able to create bridge-level access filters.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Manage Application UsersTC_FAIL
+ Test Requirement |The administrator shall be able to create bridge-level access filters.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Manage Application UsersTC_PASS
+ Test Requirement |The administrator shall be able to assign bridge-level filters for each user.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Manage Application UsersTC_FAIL
+ Test Requirement |The administrator shall be able to assign bridge-level filters for each user.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Manage Application UsersTC_PASS
+ Test Requirement |The administrator shall be able to remove users from the system or disable access as appropriate.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Manage Application UsersTC_FAIL
+ Test Requirement |The administrator shall be able to remove users from the system or disable access as appropriate.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Perform User AuthenticationTC_PASS
+ Test Requirement |The pontis System shall be capable of validating user name and password during log-in process.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Perform User AuthenticationTC_FAIL
+ Test Requirement |The pontis System shall be capable of validating user name and password during log-in process.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Perform User AuthenticationTC_PASS
+ Test Requirement |The pontis System shall be capable of authorizing access to Pontis functionalities depending on the user privileges during log-in process.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Perform User AuthenticationTC_FAIL
+ Test Requirement |The pontis System shall be capable of authorizing access to Pontis functionalities depending on the user privileges during log-in process.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Perform User AuthenticationTC_PASS
+ Test Requirement |The pontis System shall be capable of tracking login and logout activity.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Perform User AuthenticationTC_FAIL
+ Test Requirement |The pontis System shall be capable of tracking login and logout activity.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Perform User AuthenticationTC_PASS
+ Test Requirement |The pontis System shall be capable of running concurrent sessions for a user.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Perform User AuthenticationTC_FAIL
+ Test Requirement |The pontis System shall be capable of running concurrent sessions for a user.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Perform User AuthenticationTC_PASS
+ Test Requirement |The pontis System shall be capable of supporting Windows Authentication mechanism for database access.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Perform User AuthenticationTC_FAIL
+ Test Requirement |The pontis System shall be capable of supporting Windows Authentication mechanism for database access.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Perform User AuthenticationTC_PASS
+ Test Requirement |The pontis System shall be capable of initiating a session without a login prompt that will provide support for an independent launch shell for Pontis and will be configured by the system administrator.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Perform User AuthenticationTC_FAIL
+ Test Requirement |The pontis System shall be capable of initiating a session without a login prompt that will provide support for an independent launch shell for Pontis and will be configured by the system administrator.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Perform User AuthenticationTC_PASS
+ Test Requirement |The pontis System shall be capable of integrating authentication and permissions with BRIDGEWare.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Perform User AuthenticationTC_FAIL
+ Test Requirement |The pontis System shall be capable of integrating authentication and permissions with BRIDGEWare.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Perform User AuthenticationTC_PASS
+ Test Requirement |The pontis System shall be capable of operating with a single-sign-on authentication mechanism based on Active Directory Services or the LDAP standard.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Perform User AuthenticationTC_FAIL
+ Test Requirement |The pontis System shall be capable of operating with a single-sign-on authentication mechanism based on Active Directory Services or the LDAP standard.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Configure Application FunctionalitiesTC_PASS
+ Test Requirement |The administrator shall be able to configure the system units of measure in either English or metric mode which is a permanent setting for the application and database.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Configure Application FunctionalitiesTC_FAIL
+ Test Requirement |The administrator shall be able to configure the system units of measure in either English or metric mode which is a permanent setting for the application and database.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Configure Application FunctionalitiesTC_PASS
+ Test Requirement |The pontis System shall be capable of storing the INI file configuration information in the database or workstation registry as appropriate, eliminating dependency on INI files for program operation.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Configure Application FunctionalitiesTC_FAIL
+ Test Requirement |The pontis System shall be capable of storing the INI file configuration information in the database or workstation registry as appropriate, eliminating dependency on INI files for program operation.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Configure Application FunctionalitiesTC_PASS
+ Test Requirement |The administrator shall be able to edit the DATADICT table or its successors through a GUI window.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Configure Application FunctionalitiesTC_FAIL
+ Test Requirement |The administrator shall be able to edit the DATADICT table or its successors through a GUI window.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Configure Application FunctionalitiesTC_PASS
+ Test Requirement |The administrator shall be able to add and configure pre-populated new structure templates.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Configure Application FunctionalitiesTC_FAIL
+ Test Requirement |The administrator shall be able to add and configure pre-populated new structure templates.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Configure Application FunctionalitiesTC_PASS
+ Test Requirement |The administrator shall be able to configure field-level security.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Configure Application FunctionalitiesTC_FAIL
+ Test Requirement |The administrator shall be able to configure field-level security.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Configure Application FunctionalitiesTC_PASS
+ Test Requirement |The administrator shall be able to configure some fields as mandatory for user input.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Configure Application FunctionalitiesTC_FAIL
+ Test Requirement |The administrator shall be able to configure some fields as mandatory for user input.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Configure Application FunctionalitiesTC_PASS
+ Test Requirement |The administrator shall be able to configure different levels of permission to control editing of checked-out bridges.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Configure Application FunctionalitiesTC_FAIL
+ Test Requirement |The administrator shall be able to configure different levels of permission to control editing of checked-out bridges.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Configure Application FunctionalitiesTC_PASS
+ Test Requirement |The pontis System shall adhere to a.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Configure Application FunctionalitiesTC_FAIL
+ Test Requirement |The pontis System shall adhere to a.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Configure Application FunctionalitiesTC_PASS
+ Test Requirement |The pontis System shall adhere to a.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Configure Application FunctionalitiesTC_FAIL
+ Test Requirement |The pontis System shall adhere to a.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Configure Application FunctionalitiesTC_PASS
+ Test Requirement |The administrator shall be able to configure the values in the dropdown lists in the system.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Configure Application FunctionalitiesTC_FAIL
+ Test Requirement |The administrator shall be able to configure the values in the dropdown lists in the system.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Configure Application FunctionalitiesTC_PASS
+ Test Requirement |The administrator shall be able to create agency-specific elements, including element definitions, condition states, actions, models and other related information.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Configure Application FunctionalitiesTC_FAIL
+ Test Requirement |The administrator shall be able to create agency-specific elements, including element definitions, condition states, actions, models and other related information.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Configure Application FunctionalitiesTC_PASS
+ Test Requirement |The administrator shall be able to configure definitions of element types,environments, materials, and categories.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Configure Application FunctionalitiesTC_FAIL
+ Test Requirement |The administrator shall be able to configure definitions of element types,environments, materials, and categories.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Configure Application FunctionalitiesTC_PASS
+ Test Requirement |The administrator shall be able to add custom structure lists.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Configure Application FunctionalitiesTC_FAIL
+ Test Requirement |The administrator shall be able to add custom structure lists.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Configure Application FunctionalitiesTC_PASS
+ Test Requirement |The administrator shall be able to add custom project lists.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Configure Application FunctionalitiesTC_FAIL
+ Test Requirement |The administrator shall be able to add custom project lists.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Configure Application FunctionalitiesTC_PASS
+ Test Requirement |The administrator shall be able to configure default values for various scenario parameters.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Configure Application FunctionalitiesTC_FAIL
+ Test Requirement |The administrator shall be able to configure default values for various scenario parameters.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Configure Application FunctionalitiesTC_PASS
+ Test Requirement |The administrator shall be able to configure customizable options that affect system operations.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Configure Application FunctionalitiesTC_FAIL
+ Test Requirement |The administrator shall be able to configure customizable options that affect system operations.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Configure Application FunctionalitiesTC_PASS
+ Test Requirement |The pontis System shall validate all configuration options to verify proper program operation, including explicit identification of any potentially conflicting program options.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Configure Application FunctionalitiesTC_FAIL
+ Test Requirement |The pontis System shall validate all configuration options to verify proper program operation, including explicit identification of any potentially conflicting program options.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Configure Application FunctionalitiesTC_PASS
+ Test Requirement |The pontis System shall ensure a built-in diagnostic report support configuration option validation.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Configure Application FunctionalitiesTC_FAIL
+ Test Requirement |The pontis System shall ensure a built-in diagnostic report support configuration option validation.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Configure User-Interface PresentationTC_PASS
+ Test Requirement |The administrator shall be able to configure the labels of user interface items and screen displays.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Configure User-Interface PresentationTC_FAIL
+ Test Requirement |The administrator shall be able to configure the labels of user interface items and screen displays.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Configure User-Interface PresentationTC_PASS
+ Test Requirement |The pontis System shall be capable of supporting internationalization using the standard Windows/.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Configure User-Interface PresentationTC_FAIL
+ Test Requirement |The pontis System shall be capable of supporting internationalization using the standard Windows/.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Configure User-Interface PresentationTC_PASS
+ Test Requirement |The pontis System shall be capable of showing all screens, menus, user interface controls, prompts, error messages and information notices in native language, with some of these elements customizable.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Configure User-Interface PresentationTC_FAIL
+ Test Requirement |The pontis System shall be capable of showing all screens, menus, user interface controls, prompts, error messages and information notices in native language, with some of these elements customizable.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Admin FunctionalitiesTC_PASS
+ Test Requirement |The pontis System shall provide an interface to communicate with an external service or third-party software.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Admin FunctionalitiesTC_FAIL
+ Test Requirement |The pontis System shall provide an interface to communicate with an external service or third-party software.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Admin FunctionalitiesTC_PASS
+ Test Requirement |The pontis System shall provide application administrators with a secured tool for overriding bridge/project check-out status.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Admin FunctionalitiesTC_FAIL
+ Test Requirement |The pontis System shall provide application administrators with a secured tool for overriding bridge/project check-out status.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Admin FunctionalitiesTC_PASS
+ Test Requirement |The pontis System shall provide application administrators with a secured tool for clearing batch processing tables used by the system for deadlock/lockout resolution.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Admin FunctionalitiesTC_FAIL
+ Test Requirement |The pontis System shall provide application administrators with a secured tool for clearing batch processing tables used by the system for deadlock/lockout resolution.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Admin FunctionalitiesTC_PASS
+ Test Requirement |The pontis System shall provide a fixed set of predefined, secured, administration reports to document users, user roles, application privileges, user login sessions, checked-out bridges, and other key information necessary to manage application operation.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |Admin FunctionalitiesTC_FAIL
+ Test Requirement |The pontis System shall provide a fixed set of predefined, secured, administration reports to document users, user roles, application privileges, user login sessions, checked-out bridges, and other key information necessary to manage application operation.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |USABILITY REQUIREMENTSTC_PASS
+ Test Requirement |The pontis System shall be designed to be as straightforward and intuitive as possible, and familiar to existing users.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |USABILITY REQUIREMENTSTC_FAIL
+ Test Requirement |The pontis System shall be designed to be as straightforward and intuitive as possible, and familiar to existing users.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |USABILITY REQUIREMENTSTC_PASS
+ Test Requirement |The pontis System shall look and feel consistent in the web and standalone operating environments.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |USABILITY REQUIREMENTSTC_FAIL
+ Test Requirement |The pontis System shall look and feel consistent in the web and standalone operating environments.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |USABILITY REQUIREMENTSTC_PASS
+ Test Requirement |The user shall be comfortable operating.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |USABILITY REQUIREMENTSTC_FAIL
+ Test Requirement |The user shall be comfortable operating.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |INSTALLATION and DEPLOYMENTTC_PASS
+ Test Requirement |The pontis System shall be able to coexist with earlier versions of Pontis on the same computer.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |INSTALLATION and DEPLOYMENTTC_FAIL
+ Test Requirement |The pontis System shall be able to coexist with earlier versions of Pontis on the same computer.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |MAINTAINABILITY and PORTABILITY REQUIREMENTSTC_PASS
+ Test Requirement |The pontis System shall comply with AASHTO application development standards based on the published recommendations of the AASHTO Technical Applications and Architecture subcommittee.
+--------------------------------------------------------------------------------------------------------------------------------
+		Test Case      |MAINTAINABILITY and PORTABILITY REQUIREMENTSTC_FAIL
+ Test Requirement |The pontis System shall comply with AASHTO application development standards based on the published recommendations of the AASHTO Technical Applications and Architecture subcommittee.
+--------------------------------------------------------------------------------------------------------------------------------
+	    Test Case      |STC_PASS
+ Test Requirement |,  .
+--------------------------------------------------------------------------------------------------------------------------------
+		 	    Test Case      |STC_FAIL
+		  Test Requirement |,  .
+	   		
+--------------------------------------------------------------------------------------------------------------------------------
+	    Test Case      |and abroadTC_PASS
+ Test Requirement |,  .
+--------------------------------------------------------------------------------------------------------------------------------
+		 	    Test Case      |and abroadTC_FAIL
+		  Test Requirement |,  .
+	   		
+--------------------------------------------------------------------------------------------------------------------------------
+	    Test Case      |View Bridge DataTC_PASS
+ Test Requirement | After user select bridge ,   the pontis System shall generate a bridge list for user  .
+--------------------------------------------------------------------------------------------------------------------------------
+		 	    Test Case      |View Bridge DataTC_FAIL
+		  Test Requirement | After user select bridge ,   the pontis System shall generate a bridge list for user  .
+	   		
+--------------------------------------------------------------------------------------------------------------------------------
+	    Test Case      |View Project DataTC_PASS
+ Test Requirement | After user select projects ,   the pontis System shall generate a project/bridge list for user  .
+--------------------------------------------------------------------------------------------------------------------------------
+		 	    Test Case      |View Project DataTC_FAIL
+		  Test Requirement | After user select projects ,   the pontis System shall generate a project/bridge list for user  .
+	   		
+--------------------------------------------------------------------------------------------------------------------------------
+	    Test Case      |Create/Edit InspectionTC_PASS
+ Test Requirement | When creating a new inspection ,   the user shall have the option to copy the notes from previous inspection  .
+--------------------------------------------------------------------------------------------------------------------------------
+		 	    Test Case      |Create/Edit InspectionTC_FAIL
+		  Test Requirement | When creating a new inspection ,   the user shall have the option to copy the notes from previous inspection  .
+	   		
+--------------------------------------------------------------------------------------------------------------------------------
+	    Test Case      |Calculate Dependent/Derived Inspection ResultsTC_PASS
+ Test Requirement | When dependent fields for ratings are changed and offer user option to recalculate ratings ,   the pontis System shall be capable of prompting users  .
+--------------------------------------------------------------------------------------------------------------------------------
+		 	    Test Case      |Calculate Dependent/Derived Inspection ResultsTC_FAIL
+		  Test Requirement | When dependent fields for ratings are changed and offer user option to recalculate ratings ,   the pontis System shall be capable of prompting users  .
+	   		
+--------------------------------------------------------------------------------------------------------------------------------
+	    Test Case      |Calculate Dependent/Derived Inspection ResultsTC_PASS
+ Test Requirement | When user saves inspection ,   the administrator shall configure behavior to recalculate silently with no confirmation prompt  .
+--------------------------------------------------------------------------------------------------------------------------------
+		 	    Test Case      |Calculate Dependent/Derived Inspection ResultsTC_FAIL
+		  Test Requirement | When user saves inspection ,   the administrator shall configure behavior to recalculate silently with no confirmation prompt  .
+	   		
+--------------------------------------------------------------------------------------------------------------------------------
+	    Test Case      |Develop Preservation PolicyTC_PASS
+ Test Requirement | If elicitation process fails ,   the pontis System shall be capable of recovering the model  .
+--------------------------------------------------------------------------------------------------------------------------------
+		 	    Test Case      |Develop Preservation PolicyTC_FAIL
+		  Test Requirement | If elicitation process fails ,   the pontis System shall be capable of recovering the model  .
+	   		
+--------------------------------------------------------------------------------------------------------------------------------
+	    Test Case      |Perform Bridge AnalysisTC_PASS
+ Test Requirement | If project budget exceeds funding ,   the pontis System shall warn users  .
+--------------------------------------------------------------------------------------------------------------------------------
+		 	    Test Case      |Perform Bridge AnalysisTC_FAIL
+		  Test Requirement | If project budget exceeds funding ,   the pontis System shall warn users  .
+	   		
+--------------------------------------------------------------------------------------------------------------------------------
+	    Test Case      |NET transaction management capabilitiesTC_PASS
+ Test Requirement |,  .
+--------------------------------------------------------------------------------------------------------------------------------
+		 	    Test Case      |NET transaction management capabilitiesTC_FAIL
+		  Test Requirement |,  .
+	   		
+--------------------------------------------------------------------------------------------------------------------------------
+	    Test Case      |NET session and transaction management capabilitiesTC_PASS
+ Test Requirement |,  .
+--------------------------------------------------------------------------------------------------------------------------------
+		 	    Test Case      |NET session and transaction management capabilitiesTC_FAIL
+		  Test Requirement |,  .
+	   		
+--------------------------------------------------------------------------------------------------------------------------------
+	    Test Case      |Perform Data ArchivingTC_PASS
+ Test Requirement | When rows were last changed ,   the pontis System shall use timestamps in the database to log  .
+--------------------------------------------------------------------------------------------------------------------------------
+		 	    Test Case      |Perform Data ArchivingTC_FAIL
+		  Test Requirement | When rows were last changed ,   the pontis System shall use timestamps in the database to log  .
+	   		
+--------------------------------------------------------------------------------------------------------------------------------
+	    Test Case      |Configure Application FunctionalitiesTC_PASS
+ Test Requirement | When storing any configuration or session parameters ,   the pontis System shall accommodate XP directory security and file permissions  .
+--------------------------------------------------------------------------------------------------------------------------------
+		 	    Test Case      |Configure Application FunctionalitiesTC_FAIL
+		  Test Requirement | When storing any configuration or session parameters ,   the pontis System shall accommodate XP directory security and file permissions  .
+	   		
+--------------------------------------------------------------------------------------------------------------------------------
+	    Test Case      |NET logging standardTC_PASS
+ Test Requirement |,  .
+--------------------------------------------------------------------------------------------------------------------------------
+		 	    Test Case      |NET logging standardTC_FAIL
+		  Test Requirement |,  .
+	   		
+--------------------------------------------------------------------------------------------------------------------------------
+	    Test Case      |NET exception handling standardTC_PASS
+ Test Requirement |,  .
+--------------------------------------------------------------------------------------------------------------------------------
+		 	    Test Case      |NET exception handling standardTC_FAIL
+		  Test Requirement |,  .
+	   		
+--------------------------------------------------------------------------------------------------------------------------------
+	    Test Case      |NET internationalization supportTC_PASS
+ Test Requirement |,  .
+--------------------------------------------------------------------------------------------------------------------------------
+		 	    Test Case      |NET internationalization supportTC_FAIL
+		  Test Requirement |,  .
+	   		
+--------------------------------------------------------------------------------------------------------------------------------
+	    Test Case      |A set of standard interfaces25 will be defined for this capabilityTC_PASS
+ Test Requirement |,  .
+--------------------------------------------------------------------------------------------------------------------------------
+		 	    Test Case      |A set of standard interfaces25 will be defined for this capabilityTC_FAIL
+		  Test Requirement |,  .
+	   		
+--------------------------------------------------------------------------------------------------------------------------------
+	    Test Case      |USABILITY REQUIREMENTSTC_PASS
+ Test Requirement | After two full days of training ,   the user shall be allow to use the software  .
+--------------------------------------------------------------------------------------------------------------------------------
+		 	    Test Case      |USABILITY REQUIREMENTSTC_FAIL
+		  Test Requirement | After two full days of training ,   the user shall be allow to use the software  .
+	   		
+--------------------------------------------------------------------------------------------------------------------------------
+	    Test Case      |USABILITY REQUIREMENTSTC_PASS
+ Test Requirement | After one full days of system administration training ,   the administration shall be allow to use the software  .
+--------------------------------------------------------------------------------------------------------------------------------
+		 	    Test Case      |USABILITY REQUIREMENTSTC_FAIL
+		  Test Requirement | After one full days of system administration training ,   the administration shall be allow to use the software  .
+	   		
